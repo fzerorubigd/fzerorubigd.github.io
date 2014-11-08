@@ -9,4 +9,9 @@ params:
   github: "fzerorubigd"
   twitter: "fzerorubigd"
   footerNote: :)
+  top_menu:
+    - Title: وبلاگ قدیمی
+      Link: http://cyberrabbits.net
+    - Title: توییتر
+      Link: https://twitter.com/fzerorubigd
 ---
