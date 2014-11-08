@@ -1,0 +1,30 @@
+{{ partial "head.html" . }}
+<body dir="rtl">
+	<div class="container-fluid main">
+		<div class="col-lg-9">
+			<div class="post">
+				<div class="">
+					{{ if isset .Params "image" }}
+						<div class="col-lg-12 single-img ">
+							<img src="{{ .Params.image }}" class="img-responsive">
+						</div>
+					{{ else }}
+						<div class="col-lg-12 single-img single-img-bg ">
+						</div>
+					{{ end }}
+					<div class="col-lg-12">
+						<a class="Title" href="{{ .Permalink }}">
+							{{.Title}}
+						</a>
+						<p>
+							{{.Content}}
+						</p>
+					</div>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+		</div>
+		{{ partial "sidebar.html" . }}
+	</div>
+</body>
+{{ partial "footer.html" . }}

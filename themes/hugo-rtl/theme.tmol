@@ -1,0 +1,8 @@
+name = "hugo-rtl"
+license = "MIT"
+description = "A theme for right to left language"
+tags = ["blog", "rtl"]
+features = ["blog","rtl" ]
+[author]
+name = "zeroB4wl"
+homepage = "https://github.com/zerob4wl/hugo-rtl/"

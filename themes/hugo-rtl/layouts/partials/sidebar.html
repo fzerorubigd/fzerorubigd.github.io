@@ -1,0 +1,21 @@
+<div class="col-lg-3">
+	<div class="page-header">
+		<h3>
+			<a href='https://twitter.com/{{ .Site.Params.twitter }}' class="twitter">
+			</a>
+			<a href='https://github.com/{{ .Site.Params.github }}' class="github">
+			</a>
+		</h3>
+	{{ if isset . "Posts" }}
+		<ul class="latest-post" >
+		{{ range  first 10 .Posts.Data.Pages }}
+			<li>
+				<a class="Title" href="{{ .Permalink }}">
+					{{.Title}}
+				</a>
+			</li>
+		{{ end }}
+		</ul>
+	{{ end }}
+	</div>
+</div>
