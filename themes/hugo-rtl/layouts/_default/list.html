@@ -1,0 +1,32 @@
+{{ partial "head.html" . }}
+	<div class="container-fluid main">
+		<div class="col-lg-9">
+			{{ range  first 10 .Data.Pages }}
+			<div class="post">
+				<div class="">
+					<div class="col-lg-{{ if isset .Params "image" }}8{{ else }}12{{ end }}">
+						<a class="Title" href="{{ .Permalink }}">
+							{{.Title}}
+						</a>
+						<p>
+							{{.Content}}
+						</p>
+						<div class="text-left">
+							<a class="btn btn-info" href="{{ .Permalink }}">&raquo;</a>
+						</div>
+					</div>
+					{{ if isset .Params "image" }}
+					<div class="col-lg-4">
+						<a href="{{ .Permalink }}">
+							<img src="{{ .Params.image }}" class="img-responsive">
+						</a>
+					</div>
+					{{ end }}
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+		{{ partial "sidebar.html" . }}
+	</div>
+{{ partial "footer.html" . }}

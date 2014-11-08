@@ -1,0 +1,12 @@
+---
+baseurl: "http://localhost:1313/"
+title: "یادداشتهای بیت نیمسوز"
+permalinks:
+  post: /:year/:month/:slug/
+params:
+  Subtitle: "یک وبلاگ دیگر از یک برنامه نویس دیگر"
+  AuthorName: "fzerorubigd"
+  github: "fzerorubigd"
+  twitter: "fzerorubigd"
+  footerNote: :)
+---
