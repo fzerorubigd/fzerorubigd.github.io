@@ -6,6 +6,7 @@ permalinks:
 params:
   Subtitle: "یک وبلاگ دیگر از یک برنامه نویس دیگر"
   AuthorName: "fzerorubigd"
+  disqusShortname: fzerorubigd
   github: "fzerorubigd"
   twitter: "fzerorubigd"
   footerNote: Copyleft fzerorubigd
