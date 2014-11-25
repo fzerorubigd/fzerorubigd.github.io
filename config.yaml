@@ -15,4 +15,6 @@ params:
       Link: http://cyberrabbits.net
     - Title: توییتر
       Link: https://twitter.com/fzerorubigd
+  extra_css:
+    - File: fzero.css
 ---
