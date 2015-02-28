@@ -1,3 +1,6 @@
 [submodule "themes/hugo-rtl"]
 	path = themes/hugo-rtl
 	url = git@github.com:fzerorubigd/hugo-rtl.git
+[submodule "themes/hugo-uno"]
+	path = themes/hugo-uno
+	url = git@github.com:fzerorubigd/hugo-uno.git

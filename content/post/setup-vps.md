@@ -1,6 +1,6 @@
 +++
 date = "2015-01-06T09:30:45+03:30"
-draft = true
+draft = false
 title = "setup vps"
 slug= "setup-vps"
 +++

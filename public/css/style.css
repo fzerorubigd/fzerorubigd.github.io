@@ -177,3 +177,12 @@ a.twitter:hover{
 	background-color: #e6e6e6;
     text-decoration: none;
 }
+
+.gist {
+  direction: ltr !important;
+}
+
+img  {
+	display: block;	
+	
+}
