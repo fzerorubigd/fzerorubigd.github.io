@@ -1,0 +1,22 @@
+languageCode = "fa-ir"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://fzero.rubi.gd/"
+canonifyurls = true
+title = "یادداشتهای بیت نیمسوز"
+author = "fzerorubigd"
+
+[indexes]
+   category = "categories"
+   tag = "tags"
+[Params]
+  AuthorName = "fzerorubigd"
+  github = "fzerorubigd"
+  bitbucket = "fzerorubigd"
+  twitter = "fzerorubigd"
+  email = "fzero@rubi.gd"
+  description = "یک وبلاگ دیگر از یک برنامه نویس دیگر"
+  linkedin = "fzerorubigd"
+  cover = "/images/background-cover.jpg"
+  logo = "/img/logo-1.jpg"
