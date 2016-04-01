@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Vazir;
+  src: url('fonts/Vazir.eot');
+  src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Vazir.woff') format('woff'),
+       url('fonts/Vazir.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('fonts/Vazir-Bold.eot');
+  src: url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Vazir-Bold.woff') format('woff'),
+       url('fonts/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+body {
+	font-family: Vazir;
+	direction: rtl;
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: right;
+  }
+}
+
+@media (min-width: 48em) {
+  .content {
+    margin-left: 2rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 4rem;
+    margin-right: 22rem;
+  }
+}
+
+.sidebar-nav {
+  padding-right: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+
+code {
+	direction: ltr;
+	display: inline-block;
+}
+
+.sidebar-about img {
+  margin: 0 2rem 0.5rem auto;
+}
+@media (min-width: 48em) {
+  .sidebar-about img {
+    margin: 0 2rem 0.75rem 0;
+  }
+}
+@media (min-width: 58em) {
+  .sidebar-about img {
+    margin: 0 2rem 1rem 0;
+  }
+}
