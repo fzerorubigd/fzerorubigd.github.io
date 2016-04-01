@@ -17,4 +17,4 @@ git commit -aSs -m "$msg"
 
 # Push source and build repos.
 git push origin hugo
-git subtree push --prefix=public git@github.com:fzerorubigd/fzerorubigd.github.io.git master
+git subtree push -f --prefix=public git@github.com:fzerorubigd/fzerorubigd.github.io.git master
