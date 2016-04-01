@@ -6,15 +6,94 @@
     <description>Recent content on یادداشتهای بیت نیمسوز</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
-    
-    
-    <lastBuildDate>Tue, 06 Jan 2015 09:30:45 IRST</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate>
     <atom:link href="http://fzero.rubi.gd/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>چند کاربر با یک zsh</title>
+      <link>http://fzero.rubi.gd/post/multi_user_zsh/</link>
+      <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/post/multi_user_zsh/</guid>
+      <description>&lt;p&gt;قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور.
+مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم.
+این کار شاید خوب نباشه، ولی الان بحث من نیست. لطفا نیاید بگید ای داد ای بیداد این مشکل امنیتی داره و فیلان.&lt;/p&gt;
+
+&lt;p&gt;مشکل اینه که با این سیستم، همه مجبور به استفاده از یک سری تنظیمات مشترک میشیم. بیشتر از همه این مشکل خودشو تو تنظیمات شل نشون میده. حقیقت اینه که شل اون کاربر به خصوص ثابته،‌ مثلا برای ما zsh.&lt;/p&gt;
+
+&lt;p&gt;من یه اسکریپت کوچیک نوشتم که بتونیم هم یه کانفیگ مجزا برای zsh داشته باشیم و هم اینکه بتونیم history رو برای هر کاربر جدا کنیم.&lt;/p&gt;
+
+&lt;p&gt;این اون اسکریپته :&lt;/p&gt;
+
+&lt;p&gt;&lt;script src=&#34;https://gist.github.com/fzerorubigd/a781e6425b810cbbe336.js&#34;&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/env zsh
+# to setup :
+# mkdir $ROOT/yourname
+# $EDITOR $ROOT/yourname/zshrc
+
+ROOT=~/.profiles
+
+if [ -z $PROFILE_DIR ];then
+    pushd $ROOT &amp;gt;/dev/null
+    FILES=($ROOT/*/)
+    FILES+=(&amp;quot;Exit&amp;quot;)
+
+    select f in ${FILES[*]}
+    do
+        if [[ &amp;quot;$f&amp;quot; == &#39;Exit&#39; ]];then
+            return
+        fi
+
+        if [ -f &amp;quot;$f/zshrc&amp;quot; ];then
+            PROFILE_DIR=&amp;quot;$f&amp;quot;
+            break
+        fi
+    done
+
+    export PROFILE_DIR
+    popd &amp;gt;/dev/null
+fi
+PROFILE_HISTORY=&amp;quot;${PROFILE_DIR}zsh_history&amp;quot;
+export HISTFILE=$PROFILE_HISTORY
+source $PROFILE_DIR/zshrc
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/noscript&gt;&lt;/p&gt;
+
+&lt;p&gt;برای اینکه کار کنه، پوشه &lt;code&gt;~/.profiles&lt;/code&gt; رو بسازید، بعد به ازای هر کاربر یه پوشه توی این بسازید
+مثلا برای من میشه &lt;code&gt;~/.profiles/f0rud/&lt;/code&gt;
+بعدش فایل &lt;code&gt;zshrc&lt;/code&gt; رو برای خودتون بسازید و توی این فولدر بذارید دقت کنید که دیگه دات نداره اسمش.&lt;/p&gt;
+
+&lt;p&gt;تا اینجا همه چی اوکیه. ولی باحال تر میشه اگه کسی بخواد با ssh کردن، اتوماتیک خودش سوییچ بشه به کانفیگ مورد نظرش.
+برای اینکار باید به ssh بگیم که به env های کاربر توی فایل  ‍‍‍‍
+&lt;code&gt;~/.ssh/authorized_keys&lt;/code&gt; احترام بذاره.&lt;/p&gt;
+
+&lt;p&gt;برای این کار بادی این آپشن  ‍&lt;code&gt;PermitUserEnvironment&lt;/code&gt;
+رو روشن کنید. البته یه ریسک هم داره :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Specifies whether ~/.ssh/environment and environment= options in
+     ~/.ssh/authorized_keys are processed by sshd.  The default is
+     &amp;quot;no&amp;quot;.  Enabling environment processing may enable users to bypass
+     access restrictions in some configurations using mechanisms such
+     as LD_PRELOAD.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;بعدش کافیه تو فایل &lt;code&gt;~/.ssh/authorized_keys&lt;/code&gt; که کلیدهای ssh خودتون رو اضافه میکنید،‌برای کاربر خودتون
+قبل از کلید خودتون اینو بنویسید :
+‍‍‍&lt;code&gt;
+PROFILE_DIR=~/.profiles/f0rud/ ssh-rsa AAAAB3NzaC1yc2...
+&lt;/code&gt;
+اون اسلش آخر هم لازمه.
+اینجوری دیگه زمان لاگین از طریق SSH پروفایل درست انتخاب میشه و دیگه نیازی به انتخاب اولیه نیست.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>setup vps</title>
       <link>http://fzero.rubi.gd/post/setup-vps/</link>
-      <pubDate>Tue, 06 Jan 2015 09:30:45 IRST</pubDate>
+      <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
       
       <guid>http://fzero.rubi.gd/post/setup-vps/</guid>
       <description>&lt;p&gt;من با ترمینال غریبه نیستم، حقیقت اینه که خیلی هم باهاش راحتم. اینکه بخوام یه برنامه رو تو ترمینال نصب کنم و کانفیگ کنم اصولا ترجیح منه، ولی این یه جفت استثنا هم داره. این یه جفت استثنا، تنظیم dns (باز tinydns خیلی بهتره، از bind متنفرم رسما!) و یکی هم تنظیم mail server برای دریافت و ارسال ایمیل، ارسال معولا راحته، ولی دریافت رو اصلا حسشو ندارم :)) الان اگه شما حسشو دارید، و اینکار براتون راحته، سیستمتون هم به اندازه کافی قدرتمند هست که مثلا یه roundcube راه بندازید روش، همین جا دیگه ادامه ندید :) و خیلی خوشحالم که تا همین قسمتشو خوندید :))&lt;/p&gt;
@@ -44,30 +123,25 @@
 &lt;p&gt;خیلی از لینکها وقتی تو مود ترجمه شده هستید کار نمیکنن، هر وقت تو این شرایط بودید، لینک رو که پیدا کردید و فهمیدید چیه، ترجمه رو خاموش کنید و ادامه بدید.&lt;/p&gt;
 
 &lt;p&gt;&amp;lsquo;گام بعدی کاملا مشخصه، اسم سایتتون رو بعد از @ وارد کنید :
-&lt;img src=&#34;/images/setup-vps/yandex1.png&#34; alt=&#34;ثبت دامنه در yandex&#34; /&gt;
-&lt;/p&gt;
+&lt;img src=&#34;http://fzero.rubi.gd/images/setup-vps/yandex1.png&#34; alt=&#34;ثبت دامنه در yandex&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;مثلا من rubi.gd رو وارد کردم که آدرس همین سایته. و دکمه جلوییش رو بزنید.&lt;/p&gt;
 
 &lt;p&gt;صفحه بعدی ترجمه شدش میشه این :
-&lt;img src=&#34;/images/setup-vps/yandex2.png&#34; alt=&#34;ثبت دامنه در yandex&#34; /&gt;
-&lt;/p&gt;
+&lt;img src=&#34;http://fzero.rubi.gd/images/setup-vps/yandex2.png&#34; alt=&#34;ثبت دامنه در yandex&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;دو مرحله هست که میتونید دوتاشو یدفعه انجام بدید. اولیش وریفای کردن دامنه برای &lt;a href=&#34;http://yandex.com&#34;&gt;yandex.com&lt;/a&gt; ه. ظاهرا خود yandex میتونه خدماتی مشابه  &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;cloudflare&lt;/a&gt;  ارایه بده که من چون از قبل تو همین CF راحت بودم دنبالش نرفتم. ولی اگر از yandex برای همین کار استفاده کنید، دیگه این مراحل رو ندارید.&lt;/p&gt;
 
 &lt;p&gt;به هر حال میگه که دو تا رکورد DNS باید اضافه بشه. اولش یه CNAME باید ساخته بشه که مثلا تو عکس بالا باید مقدارش قرار داده بشه yamail-c038a7c8dc21 و یک MX هم باید اضافه بشه برای من این شد :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/setup-vps/cf-2.png&#34; alt=&#34;افزودن رکورد در cf&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://fzero.rubi.gd/images/setup-vps/cf-2.png&#34; alt=&#34;افزودن رکورد در cf&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;بعد از اینکه تایید بشه میرید صفحه بعدی، این ممکنه در حد چند دقیقه طول بکشه ولی دکمه رو فشار بدید سعی میکنه تست کنه.&lt;/p&gt;
 
 &lt;p&gt;بعدشم که سادست :
-&lt;img src=&#34;/images/setup-vps/yandex3.png&#34; alt=&#34;ایجاد ایمیل&#34; /&gt;
-&lt;/p&gt;
+&lt;img src=&#34;http://fzero.rubi.gd/images/setup-vps/yandex3.png&#34; alt=&#34;ایجاد ایمیل&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/setup-vps/yandex4.png&#34; alt=&#34;افزودن ایمیل&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://fzero.rubi.gd/images/setup-vps/yandex4.png&#34; alt=&#34;افزودن ایمیل&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;اون لینک Mail Login تله است :)) از اونجا برید کل زندگی روسی میشه.
 خیلی ساده برید &lt;a href=&#34;http://yandex.com&#34;&gt;yandex.com&lt;/a&gt; و صفحه ایمیل رو بزنید و آدرس کامل ایمیل رو بزنید و کلمه رمز رو.
@@ -78,7 +152,7 @@
     <item>
       <title>کمک به پروژه‌های آزاد - دونیشن</title>
       <link>http://fzero.rubi.gd/post/donation/</link>
-      <pubDate>Fri, 19 Dec 2014 15:24:36 IRST</pubDate>
+      <pubDate>Fri, 19 Dec 2014 15:24:36 +0330</pubDate>
       
       <guid>http://fzero.rubi.gd/post/donation/</guid>
       <description>&lt;p&gt;یکی از چیزهایی که توی دنیای نرم‌افزارهای آزاد گاهی نقش حیاتی ایفا میکنه، دونیشن از سمت جامعه کاربری‌ه. منتها این دونیشن گاهی یه سری برداشتهای غلط رو باعث میشه. چند تاشون تو ذهن من هست، مینویسم، اگر چیزی به ذهن شما رسید خوشحال میشم که این پست رو تو گیتهاب ویرایش کنید و دوباره درخواست PR بدید.&lt;/p&gt;
@@ -106,7 +180,7 @@
     <item>
       <title>گور بدون مرده - ssh-honeypot</title>
       <link>http://fzero.rubi.gd/post/ssh-honey-pot/</link>
-      <pubDate>Fri, 12 Dec 2014 15:55:44 IRST</pubDate>
+      <pubDate>Fri, 12 Dec 2014 15:55:44 +0330</pubDate>
       
       <guid>http://fzero.rubi.gd/post/ssh-honey-pot/</guid>
       <description>&lt;p&gt;یکی از تکنیکهای امنیتی که بهش هانی‌پات یا همون کندوی عسل هم میگن، اینه که یه سرویس جعلی ایجاد کنی و بعد اونو به جای سرویس اصلی بذاری. این سرویس نباید خیلی سنگین باشه، معمولا پشتش هیچی نیست و هر کاری هم که صورت بگیره آخرش اتفاق خاصی قرار نیست بیفته. اون کسی که قصد نفوذ به سیستم رو داره گیر این تله میفته و به جای اینکه واقعا برسه به سرویس اصلی با یه نسخه احمقانه سرش گرم میشه:)&lt;br /&gt;
@@ -125,7 +199,7 @@
     <item>
       <title>سلام دنیا، دوباره!</title>
       <link>http://fzero.rubi.gd/post/hello-world-again/</link>
-      <pubDate>Sun, 29 Jun 2014 14:24:35 UTC</pubDate>
+      <pubDate>Sun, 29 Jun 2014 14:24:35 +0000</pubDate>
       
       <guid>http://fzero.rubi.gd/post/hello-world-again/</guid>
       <description>&lt;p&gt;سلام. دوباره برای بار هزار و یکم، و این بار با &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;hugo&lt;/a&gt;
