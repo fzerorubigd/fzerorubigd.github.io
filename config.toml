@@ -6,17 +6,60 @@ baseurl = "http://fzero.rubi.gd/"
 canonifyurls = true
 title = "یادداشتهای بیت نیمسوز"
 author = "fzerorubigd"
+theme = "hyde-x"
 
 [indexes]
    category = "categories"
    tag = "tags"
 [Params]
   AuthorName = "fzerorubigd"
-  github = "fzerorubigd"
-  bitbucket = "fzerorubigd"
-  twitter = "fzerorubigd"
-  email = "fzero@rubi.gd"
   description = "یک وبلاگ دیگر از یک برنامه نویس دیگر"
-  linkedin = "fzerorubigd"
-  cover = "/images/background-cover.jpg"
-  logo = "/img/logo-1.jpg"
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = true
+
+    # Used when a given page doesn't set its own.
+    defaultDescription = "یک وبلاگ دیگر از یک برنامه نویس دیگر"
+    defaultKeywords = "linux,golang"
+
+    # Hide estimated reading time for posts.
+    # Default (if omitted) is false.
+    hideReadingTime = false
+
+    # Changes sidebar background and link/accent colours.
+    # See below for more colour options.
+    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+    theme = "theme-base-0d"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "sunburst"
+
+    # Optional additional custom CSS file URL, will override other styles.
+    customCSS = "/css/hacks.css"
+
+    # Displays under the author name in the sidebar, keep it short.
+    # You can use markdown here.
+    tagline = "یک وبلاگ دیگر از یک برنامه نویس دیگر"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Blog".
+    home = "وبلاگ"
+
+    # Metadata used to drive integrations.
+    googleAnalytics = "Your Google Analytics tracking code"
+    gravatarHash = "8c7e4f1f1f59ff04755adc03ab2a1dab"
+
+    # Sidebar social links, these must be full URLs.
+    github = "https://github.com/fzerorubigd"
+    bitbucket = ""
+    stackOverflow = ""
+    linkedin = ""
+    googleplus = ""
+    facebook = ""
+    twitter = "https://twitter.com/fzerorubigd"
+    youtube = ""
+
+    # Other social-like sidebar links
+    rss = true  # switch to true to enable RSS icon link
