@@ -7,13 +7,14 @@ canonifyurls = true
 title = "یادداشتهای بیت نیمسوز"
 author = "fzerorubigd"
 theme = "hyde-x"
+disqusShortname = "fzerorubigd"
 
 [indexes]
    category = "categories"
    tag = "tags"
 [Params]
-  AuthorName = "fzerorubigd"
-  description = "یک وبلاگ دیگر از یک برنامه نویس دیگر"
+    AuthorName = "fzerorubigd"
+    description = "یک وبلاگ دیگر از یک برنامه نویس دیگر"
     # If false display full article contents in blog index.
     # Otherwise show description and 'read on' link to individual blog post page.
     # Default (if omitted) is true.
