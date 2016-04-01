@@ -1,6 +1,6 @@
 +++
 date = "2015-01-16T14:36:50+03:30"
-draft = true
+draft = false
 title = "چند کاربر با یک zsh"
 slug = "multi_user_zsh"
 +++
@@ -16,4 +16,66 @@ slug = "multi_user_zsh"
 این اون اسکریپته : 
 
 <script src="https://gist.github.com/fzerorubigd/a781e6425b810cbbe336.js"></script>
+<noscript>
+```
+#!/bin/env zsh
+# to setup :
+# mkdir $ROOT/yourname
+# $EDITOR $ROOT/yourname/zshrc
+
+ROOT=~/.profiles
+
+if [ -z $PROFILE_DIR ];then
+    pushd $ROOT >/dev/null
+    FILES=($ROOT/*/)
+    FILES+=("Exit")
+
+    select f in ${FILES[*]}
+    do
+        if [[ "$f" == 'Exit' ]];then
+            return
+        fi
+
+        if [ -f "$f/zshrc" ];then
+            PROFILE_DIR="$f"
+            break
+        fi
+    done
+
+    export PROFILE_DIR
+    popd >/dev/null
+fi
+PROFILE_HISTORY="${PROFILE_DIR}zsh_history"
+export HISTFILE=$PROFILE_HISTORY
+source $PROFILE_DIR/zshrc
+
+```
+</noscript>
+
+
+برای اینکه کار کنه، پوشه `~/.profiles` رو بسازید، بعد به ازای هر کاربر یه پوشه توی این بسازید
+مثلا برای من میشه `~/.profiles/f0rud/` 
+بعدش فایل `zshrc` رو برای خودتون بسازید و توی این فولدر بذارید دقت کنید که دیگه دات نداره اسمش.
+
+
+تا اینجا همه چی اوکیه. ولی باحال تر میشه اگه کسی بخواد با ssh کردن، اتوماتیک خودش سوییچ بشه به کانفیگ مورد نظرش. 
+برای اینکار باید به ssh بگیم که به env های کاربر توی فایل  ‍‍‍‍
+`~/.ssh/authorized_keys` احترام بذاره. 
+
+برای این کار بادی این آپشن  ‍`PermitUserEnvironment`
+رو روشن کنید. البته یه ریسک هم داره : 
+
+```Specifies whether ~/.ssh/environment and environment= options in
+     ~/.ssh/authorized_keys are processed by sshd.  The default is
+     "no".  Enabling environment processing may enable users to bypass
+     access restrictions in some configurations using mechanisms such
+     as LD_PRELOAD.```
+     
+بعدش کافیه تو فایل `~/.ssh/authorized_keys` که کلیدهای ssh خودتون رو اضافه میکنید،‌برای کاربر خودتون 
+قبل از کلید خودتون اینو بنویسید : 
+‍‍‍```
+PROFILE_DIR=~/.profiles/f0rud/ ssh-rsa AAAAB3NzaC1yc2...
+```
+اون اسلش آخر هم لازمه. 
+اینجوری دیگه زمان لاگین از طریق SSH پروفایل درست انتخاب میشه و دیگه نیازی به انتخاب اولیه نیست. 
 
