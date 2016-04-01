@@ -26,6 +26,7 @@ body {
     position: fixed;
     top: 0;
     right: 0;
+    left: auto;
     bottom: 0;
     width: 18rem;
     left:auto;
