@@ -11,10 +11,10 @@
     
     <item>
       <title>چند کاربر با یک zsh</title>
-      <link>http://fzero.rubi.gd/post/multi_user_zsh/</link>
+      <link>http://fzero.rubi.gd/2015/01/%DA%86%D9%86%D8%AF-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1-%D8%A8%D8%A7-%DB%8C%DA%A9-zsh/</link>
       <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
       
-      <guid>http://fzero.rubi.gd/post/multi_user_zsh/</guid>
+      <guid>http://fzero.rubi.gd/2015/01/%DA%86%D9%86%D8%AF-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1-%D8%A8%D8%A7-%DB%8C%DA%A9-zsh/</guid>
       <description>&lt;p&gt;قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور.
 مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم.
 این کار شاید خوب نباشه، ولی الان بحث من نیست. لطفا نیاید بگید ای داد ای بیداد این مشکل امنیتی داره و فیلان.&lt;/p&gt;
@@ -92,10 +92,10 @@ PROFILE_DIR=~/.profiles/f0rud/ ssh-rsa AAAAB3NzaC1yc2...
     
     <item>
       <title>setup vps</title>
-      <link>http://fzero.rubi.gd/post/setup-vps/</link>
+      <link>http://fzero.rubi.gd/2015/01/setup-vps/</link>
       <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
       
-      <guid>http://fzero.rubi.gd/post/setup-vps/</guid>
+      <guid>http://fzero.rubi.gd/2015/01/setup-vps/</guid>
       <description>&lt;p&gt;من با ترمینال غریبه نیستم، حقیقت اینه که خیلی هم باهاش راحتم. اینکه بخوام یه برنامه رو تو ترمینال نصب کنم و کانفیگ کنم اصولا ترجیح منه، ولی این یه جفت استثنا هم داره. این یه جفت استثنا، تنظیم dns (باز tinydns خیلی بهتره، از bind متنفرم رسما!) و یکی هم تنظیم mail server برای دریافت و ارسال ایمیل، ارسال معولا راحته، ولی دریافت رو اصلا حسشو ندارم :)) الان اگه شما حسشو دارید، و اینکار براتون راحته، سیستمتون هم به اندازه کافی قدرتمند هست که مثلا یه roundcube راه بندازید روش، همین جا دیگه ادامه ندید :) و خیلی خوشحالم که تا همین قسمتشو خوندید :))&lt;/p&gt;
 
 &lt;p&gt;یه مشکل دیگه هم هست، که مثلا برای همین وبلاگ، من یه دامین دارم، نیازی هم ندارم به هیچ فضای خاصی، و همین گیتهاب و فضای اون برام کافیه، ولی حقیقتش اینه که اصلا من این دامین رو گرفتم برای ایمیل، خیلی ظلمه که اون ایمیل رو نداشته باشم، ولی بالاخره باید یه جوری این دامین رو وصل کنم به یه سیستم که بتونم یه میل روش نصب کنم، و حقیقتا خیلی مسخره بود که یه وی پی اس یا حتی یه هاست اشتراکی! براش بگیرم.&lt;/p&gt;
@@ -151,10 +151,10 @@ PROFILE_DIR=~/.profiles/f0rud/ ssh-rsa AAAAB3NzaC1yc2...
     
     <item>
       <title>کمک به پروژه‌های آزاد - دونیشن</title>
-      <link>http://fzero.rubi.gd/post/donation/</link>
+      <link>http://fzero.rubi.gd/2014/12/%DA%A9%D9%85%DA%A9-%D8%A8%D9%87-%D9%BE%D8%B1%D9%88%DA%98%D9%87%D9%87%D8%A7%DB%8C-%D8%A2%D8%B2%D8%A7%D8%AF---%D8%AF%D9%88%D9%86%DB%8C%D8%B4%D9%86/</link>
       <pubDate>Fri, 19 Dec 2014 15:24:36 +0330</pubDate>
       
-      <guid>http://fzero.rubi.gd/post/donation/</guid>
+      <guid>http://fzero.rubi.gd/2014/12/%DA%A9%D9%85%DA%A9-%D8%A8%D9%87-%D9%BE%D8%B1%D9%88%DA%98%D9%87%D9%87%D8%A7%DB%8C-%D8%A2%D8%B2%D8%A7%D8%AF---%D8%AF%D9%88%D9%86%DB%8C%D8%B4%D9%86/</guid>
       <description>&lt;p&gt;یکی از چیزهایی که توی دنیای نرم‌افزارهای آزاد گاهی نقش حیاتی ایفا میکنه، دونیشن از سمت جامعه کاربری‌ه. منتها این دونیشن گاهی یه سری برداشتهای غلط رو باعث میشه. چند تاشون تو ذهن من هست، مینویسم، اگر چیزی به ذهن شما رسید خوشحال میشم که این پست رو تو گیتهاب ویرایش کنید و دوباره درخواست PR بدید.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -179,10 +179,10 @@ PROFILE_DIR=~/.profiles/f0rud/ ssh-rsa AAAAB3NzaC1yc2...
     
     <item>
       <title>گور بدون مرده - ssh-honeypot</title>
-      <link>http://fzero.rubi.gd/post/ssh-honey-pot/</link>
+      <link>http://fzero.rubi.gd/2014/12/%DA%AF%D9%88%D8%B1-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%B1%D8%AF%D9%87---ssh-honeypot/</link>
       <pubDate>Fri, 12 Dec 2014 15:55:44 +0330</pubDate>
       
-      <guid>http://fzero.rubi.gd/post/ssh-honey-pot/</guid>
+      <guid>http://fzero.rubi.gd/2014/12/%DA%AF%D9%88%D8%B1-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%B1%D8%AF%D9%87---ssh-honeypot/</guid>
       <description>&lt;p&gt;یکی از تکنیکهای امنیتی که بهش هانی‌پات یا همون کندوی عسل هم میگن، اینه که یه سرویس جعلی ایجاد کنی و بعد اونو به جای سرویس اصلی بذاری. این سرویس نباید خیلی سنگین باشه، معمولا پشتش هیچی نیست و هر کاری هم که صورت بگیره آخرش اتفاق خاصی قرار نیست بیفته. اون کسی که قصد نفوذ به سیستم رو داره گیر این تله میفته و به جای اینکه واقعا برسه به سرویس اصلی با یه نسخه احمقانه سرش گرم میشه:)&lt;br /&gt;
 این سرویس جعلی باید کاملا مشابه سرویس اصلی باشه. حتی ایده‌آلش اینه که به کاربر اکسس هم بده و بندازتش تو یه محیط محدود مثل موش آزمایشگاهی :)))&lt;/p&gt;
 
@@ -198,10 +198,10 @@ PROFILE_DIR=~/.profiles/f0rud/ ssh-rsa AAAAB3NzaC1yc2...
     
     <item>
       <title>سلام دنیا، دوباره!</title>
-      <link>http://fzero.rubi.gd/post/hello-world-again/</link>
+      <link>http://fzero.rubi.gd/2014/06/%D8%B3%D9%84%D8%A7%D9%85-%D8%AF%D9%86%DB%8C%D8%A7-%D8%AF%D9%88%D8%A8%D8%A7%D8%B1%D9%87/</link>
       <pubDate>Sun, 29 Jun 2014 14:24:35 +0000</pubDate>
       
-      <guid>http://fzero.rubi.gd/post/hello-world-again/</guid>
+      <guid>http://fzero.rubi.gd/2014/06/%D8%B3%D9%84%D8%A7%D9%85-%D8%AF%D9%86%DB%8C%D8%A7-%D8%AF%D9%88%D8%A8%D8%A7%D8%B1%D9%87/</guid>
       <description>&lt;p&gt;سلام. دوباره برای بار هزار و یکم، و این بار با &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;hugo&lt;/a&gt;
 شاید براتون این سوال پیش بیاد که چه بلایی قراره سر وبلاگ قبلیم بیاد، واقعیت اینه که خودم هم همین سوال رو دارم. فعلا جوابی
 براش ندارم، ولی شاید یه روزی یه سری چیزاش رو برگردونم، شاید، اگه حسش بود و هزار اما و اگر دیگه.&lt;/p&gt;
