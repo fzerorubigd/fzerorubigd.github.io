@@ -6,8 +6,29 @@
     <description>Recent content in Posts on یادداشتهای بیت نیمسوز</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate>
+    <lastBuildDate>Sat, 02 Apr 2016 23:31:08 +0430</lastBuildDate>
     <atom:link href="http://fzero.rubi.gd/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>اولین کامیتهای پروژه Go</title>
+      <link>http://fzero.rubi.gd/post/go/go-first-commit/</link>
+      <pubDate>Sat, 02 Apr 2016 23:31:08 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/post/go/go-first-commit/</guid>
+      <description>&lt;p&gt;شوخ طبعی دولوپرها همیشه جالب بوده برام، چون اصولا ندارن و چیزهایی که براشون شوخی حساب میشه رو کسی جز خودشون براش بامزه حساب نمیشه.&lt;/p&gt;
+
+&lt;p&gt;این شوخی تیم گو بوده که اولین کامیتهای گو رو اینطوری رقم زده :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://fzero.rubi.gd/images/go-first/gh.png&#34; alt=&#34;the very first commits of go project&#34; /&gt;
+&lt;a href=&#34;https://github.com/golang/go/commit/7d7c6a97f815e9279d08cfaea7d5efb5e90695a8&#34;&gt;لینک اولین کامیت&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;برای اونها که ممکنه شوخی رو نگرفته باشن، تاریخ و Author اون چهار تا کامیت اول رو ببینید. &lt;a href=&#34;https://en.wikipedia.org/wiki/Brian_Kernighan&#34;&gt;Brian Kernighan&lt;/a&gt;، کسی که اولین &lt;a href=&#34;https://en.wikipedia.org/wiki/%22Hello,_World!%22_program&#34;&gt;Hello World&lt;/a&gt; شناخته شده رو تو کتابش داره، تاریخ هم که خیلی قدیمیه، برمیگرده به قبل از زبان C حتی.&lt;/p&gt;
+
+&lt;p&gt;از دید من این یعنی که ما سعی داریم فلک را سقف بشکافیم و طرحی نو در اندازیم، و برای همین تمام تجربه های دیگه رو گذاشتیم کنار و از C رسیدیم به Go (هر چند که نذاشتن و خیلی زبانهای دیگه تو شکل گیری Go نقش داشتن.)&lt;/p&gt;
+
+&lt;!-- روز خوبی نبود امروز، درگیریهای توی شرکت، دعواهای توییتری :))  --&gt;
+</description>
+    </item>
     
     <item>
       <title>چند کاربر با یک zsh</title>
