@@ -8,8 +8,6 @@ title = "یادداشتهای بیت نیمسوز"
 author = "fzerorubigd"
 theme = "hyde-x"
 disqusShortname = "fzerorubigd"
-#[permalinks]
-#post=  "/:year/:month/:title/"
 
 [indexes]
    category = "categories"
