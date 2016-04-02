@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Honeypot on یادداشتهای بیت نیمسوز</title>
+    <link>http://fzero.rubi.gd/categories/honeypot/</link>
+    <description>Recent content in Honeypot on یادداشتهای بیت نیمسوز</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-ir</language>
+    <lastBuildDate>Fri, 12 Dec 2014 15:55:44 +0330</lastBuildDate>
+    <atom:link href="http://fzero.rubi.gd/categories/honeypot/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>گور بدون مرده - ssh-honeypot</title>
+      <link>http://fzero.rubi.gd/post/ssh-honey-pot/</link>
+      <pubDate>Fri, 12 Dec 2014 15:55:44 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/post/ssh-honey-pot/</guid>
+      <description>&lt;p&gt;یکی از تکنیکهای امنیتی که بهش هانی‌پات یا همون کندوی عسل هم میگن، اینه که یه سرویس جعلی ایجاد کنی و بعد اونو به جای سرویس اصلی بذاری. این سرویس نباید خیلی سنگین باشه، معمولا پشتش هیچی نیست و هر کاری هم که صورت بگیره آخرش اتفاق خاصی قرار نیست بیفته. اون کسی که قصد نفوذ به سیستم رو داره گیر این تله میفته و به جای اینکه واقعا برسه به سرویس اصلی با یه نسخه احمقانه سرش گرم میشه:)&lt;br /&gt;
+این سرویس جعلی باید کاملا مشابه سرویس اصلی باشه. حتی ایده‌آلش اینه که به کاربر اکسس هم بده و بندازتش تو یه محیط محدود مثل موش آزمایشگاهی :)))&lt;/p&gt;
+
+&lt;p&gt;معادلی که ما تو فارسی میتونیم ازش استفاده کنیم، گور بدون مرده‌است. همون ضرب‌المثلی که میگه این گوری که تو روش گریه میکنی مرده توش نیست. منم دیشب برای اینکه یه تجربه‌ای داشته باشم با golang دست به کار شدم و یدونه خیلی سادشو استارت زدم.&lt;/p&gt;
+
+&lt;p&gt;جالبی قضیه هم برام این بود که با کمترین زمان یه چیزی بنویسم، که کار کنه! و نوشتم. تو یک ساعت،‌کمتر از مدت زمانی که صرف انتخاب اسمش کردم نوشتمش&lt;a href=&#34;https://github.com/fzerorubigd/go0r&#34;&gt;go0r&lt;/a&gt;. اسمشم که مشخصه چرا این شد :) گور بدون مرده، گور صفر یا گور نال. ممنون از بچه‌های توییتر برای اسمش.&lt;/p&gt;
+
+&lt;p&gt;خیلی ساده و در ۱۰۰ خط کد - که کاملا اتفاقی بود و وقتی تموم شد فهمیدم ۱۰۰ خط شده - اینکار رو انجام دادم، تازه از  &lt;a href=&#34;http://spf13.com/project/viper&#34;&gt;viper&lt;/a&gt; و &lt;a href=&#34;https://github.com/Sirupsen/logrus&#34;&gt;logrus&lt;/a&gt; هم استفاده کردم که برای یه کار کوچیک معمولا نیازی بهشون نیست ولی چون قصد دارم در آینده یه سری قابلیت دیگه هم اضافه کنم بهش، ازشون استفاده کردم.&lt;/p&gt;
+
+&lt;p&gt;قصد داشتم هفته پیش این بلاگ رو استارت کنم که یه اتفاق فوق‌العاده بد برام افتاد، و خوب، به هرحال زندگی ادامه داره.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -73,3 +73,8 @@ code {
     margin: 0 2rem 1rem 0;
   }
 }
+
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  display: inline-block;
+}
