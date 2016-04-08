@@ -49,7 +49,7 @@ disqusShortname = "fzerorubigd"
     home = "وبلاگ"
 
     # Metadata used to drive integrations.
-    googleAnalytics = "Your Google Analytics tracking code"
+    googleAnalytics = "UA-76159433-1"
     gravatarHash = "8c7e4f1f1f59ff04755adc03ab2a1dab"
 
     # Sidebar social links, these must be full URLs.
