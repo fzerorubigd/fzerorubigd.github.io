@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>go web server on port 80 &middot; </title>
+
+  
+  <link rel="stylesheet" href="http://fzero.rubi.gd/css/poole.css">
+  <link rel="stylesheet" href="http://fzero.rubi.gd/css/hyde.css">
+  <link rel="stylesheet" href="http://fzero.rubi.gd/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://fzero.rubi.gd/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://fzero.rubi.gd/css/hyde-x.css">
+  <link rel="stylesheet" href="http://fzero.rubi.gd/css/highlight/sunburst.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://fzero.rubi.gd/css/hacks.css">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://fzero.rubi.gd/touch-icon-144-precomposed.png">
+  <link href="http://fzero.rubi.gd/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="یک وبلاگ دیگر از یک برنامه نویس دیگر">
+  <meta name="keywords" content="go,webserver,unprivilaged">
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-76159433-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</head>
+<body class="theme-base-0d">
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+        <img src="https://www.gravatar.com/avatar/8c7e4f1f1f59ff04755adc03ab2a1dab?s=200"
+             alt="gravatar" title="">
+      
+      <h1></h1>
+      <p class="lead">یک وبلاگ دیگر از یک برنامه نویس دیگر</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://fzero.rubi.gd/">وبلاگ</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/fzerorubigd"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      
+      
+      <a href="https://twitter.com/fzerorubigd"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      <a href="http://fzero.rubi.gd/index.xml" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      </li>
+    </ul>
+
+    
+
+    <p>Copyright &copy; 2016 <a href="http://fzero.rubi.gd/license/">License</a><br/>
+       Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1 class="post-title">go web server on port 80</h1>
+    <span class="post-date">Apr 14, 2016 &middot; 2 minute read &middot; <a href="http://fzero.rubi.gd/post/go/go-web-server/#disqus_thread">Comments</a>
+    
+    <br/>
+    <a class="label" href="http://fzero.rubi.gd/categories/go">go</a><a class="label" href="http://fzero.rubi.gd/categories/general">general</a>
+    </span>
+    <p>Golang یک کتابخانه عالی <a href="https://golang.org/pkg/net/http/">http</a> داره که کلی قابلیت بهت میده. مثلا <a href="http://http2.golang.org/">http2</a> و  قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به <a href="https://golang.org/pkg/net/http/#ServeContent">سادگی آب خوردن</a> پیاده میشه.
+من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا <a href="https://www.nginx.com/">nginx</a> و هنوزم خیلی وقتا اینکار رو میکنم.
+منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.</p>
+
+<p>خوب اوکی، وب سرور آماده کاره، کد من چی؟آیا عاقلانست کدم رو با دسترسی روت اجرا کنم؟
+چرا با روت؟ چون میخوام رو پورت ۸۰ یا ۴۴۳ گوش وایسه وب سرورم، و طبق استاندارد، فقط برنامه های اجرا شده با دسترسی روت میتونن روی پورتهای پایینتر از ۱۰۲۴ گوش وایسن.</p>
+
+<p>خوب یه کم نا امید کنندست. من هرگز همچین کاری نمیکنم. میشه انداختش توی داکر و امنیتش رو تا حدی تضمین کرد . دست کم اینه که اگه تو کد من زدم <code>rm -rf</code> همه چی نمیترکه.
+ولی راه ساده ترش ایه که به این فایل به خصوص اجازه بدیم رو پورتهای کمتر از ۱۰۲۴ هم گوش وایسه :</p>
+
+<pre><code># setcap cap_net_bind_service=+ep /path/to/executable
+</code></pre>
+
+<p>طبیعیه که # به معنی اینه که این دستور با دسترسی روت اجرا میشه. بعد از این دستور این برنامه میتونه روی پورتهای پایینتر هم گوش وایسه.</p>
+
+<p>برای اینکه بفهمید چه اتفاقی میفته، اول <code>man setcap</code> رو ببینید و برای لیست <code>capabilities</code> هم طبیعتا <code>man capabilities</code> رو.</p>
+
+<p>&ndash; همین.</p>
+
+  </div>
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "fzerorubigd";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "fzerorubigd";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script src="http://fzero.rubi.gd/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
+
