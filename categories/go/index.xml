@@ -6,8 +6,35 @@
     <description>Recent content in Go on یادداشتهای بیت نیمسوز</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sat, 02 Apr 2016 23:31:08 +0430</lastBuildDate>
+    <lastBuildDate>Thu, 14 Apr 2016 17:00:34 +0430</lastBuildDate>
     <atom:link href="http://fzero.rubi.gd/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>go web server on port 80</title>
+      <link>http://fzero.rubi.gd/post/go/go-web-server/</link>
+      <pubDate>Thu, 14 Apr 2016 17:00:34 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/post/go/go-web-server/</guid>
+      <description>&lt;p&gt;Golang یک کتابخانه عالی &lt;a href=&#34;https://golang.org/pkg/net/http/&#34;&gt;http&lt;/a&gt; داره که کلی قابلیت بهت میده. مثلا &lt;a href=&#34;http://http2.golang.org/&#34;&gt;http2&lt;/a&gt; و  قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به &lt;a href=&#34;https://golang.org/pkg/net/http/#ServeContent&#34;&gt;سادگی آب خوردن&lt;/a&gt; پیاده میشه.
+من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا &lt;a href=&#34;https://www.nginx.com/&#34;&gt;nginx&lt;/a&gt; و هنوزم خیلی وقتا اینکار رو میکنم.
+منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.&lt;/p&gt;
+
+&lt;p&gt;خوب اوکی، وب سرور آماده کاره، کد من چی؟آیا عاقلانست کدم رو با دسترسی روت اجرا کنم؟
+چرا با روت؟ چون میخوام رو پورت ۸۰ یا ۴۴۳ گوش وایسه وب سرورم، و طبق استاندارد، فقط برنامه های اجرا شده با دسترسی روت میتونن روی پورتهای پایینتر از ۱۰۲۴ گوش وایسن.&lt;/p&gt;
+
+&lt;p&gt;خوب یه کم نا امید کنندست. من هرگز همچین کاری نمیکنم. میشه انداختش توی داکر و امنیتش رو تا حدی تضمین کرد . دست کم اینه که اگه تو کد من زدم &lt;code&gt;rm -rf&lt;/code&gt; همه چی نمیترکه.
+ولی راه ساده ترش ایه که به این فایل به خصوص اجازه بدیم رو پورتهای کمتر از ۱۰۲۴ هم گوش وایسه :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# setcap cap_net_bind_service=+ep /path/to/executable
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;طبیعیه که # به معنی اینه که این دستور با دسترسی روت اجرا میشه. بعد از این دستور این برنامه میتونه روی پورتهای پایینتر هم گوش وایسه.&lt;/p&gt;
+
+&lt;p&gt;برای اینکه بفهمید چه اتفاقی میفته، اول &lt;code&gt;man setcap&lt;/code&gt; رو ببینید و برای لیست &lt;code&gt;capabilities&lt;/code&gt; هم طبیعتا &lt;code&gt;man capabilities&lt;/code&gt; رو.&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; همین.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>اولین کامیتهای پروژه Go</title>
