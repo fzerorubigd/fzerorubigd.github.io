@@ -45,6 +45,13 @@ categories = ["Linux", "Yandex", "MailServer", "CloudFlare"]
 
 ![افزودن رکورد در cf](/images/setup-vps/cf-2.png)
 
+همچنین برای اینکه نامه‌های ارسالی‌تون به پوشهٔ اسپم نره، بهتره رکورد spf با مشخصات زیر رو هم اضافه کنین:
+
+ * Subdomain name: @
+ * Record type: TXT
+ * Data: v=spf1 redirect=_spf.yandex.net
+
+
 بعد از اینکه تایید بشه میرید صفحه بعدی، این ممکنه در حد چند دقیقه طول بکشه ولی دکمه رو فشار بدید سعی میکنه تست کنه. 
 
 بعدشم که سادست : 
