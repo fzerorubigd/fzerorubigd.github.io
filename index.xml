@@ -573,6 +573,14 @@ PROFILE_DIR=~/.profiles/f0rud/ ssh-rsa AAAAB3NzaC1yc2...
 
 &lt;p&gt;&lt;img src=&#34;http://fzero.rubi.gd/images/setup-vps/cf-2.png&#34; alt=&#34;افزودن رکورد در cf&#34; /&gt;&lt;/p&gt;
 
+&lt;p&gt;همچنین برای اینکه نامه‌های ارسالی‌تون به پوشهٔ اسپم نره، بهتره رکورد spf با مشخصات زیر رو هم اضافه کنین:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Subdomain name: @&lt;/li&gt;
+&lt;li&gt;Record type: TXT&lt;/li&gt;
+&lt;li&gt;Data: v=spf1 redirect=_spf.yandex.net&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;بعد از اینکه تایید بشه میرید صفحه بعدی، این ممکنه در حد چند دقیقه طول بکشه ولی دکمه رو فشار بدید سعی میکنه تست کنه.&lt;/p&gt;
 
 &lt;p&gt;بعدشم که سادست :
