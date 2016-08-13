@@ -85,7 +85,7 @@
 <div class="content container">
   <div class="post">
     <h1 class="post-title">setup vps</h1>
-    <span class="post-date">Jan 6, 2015 &middot; 4 minute read &middot; <a href="http://fzero.rubi.gd/post/setup-vps/#disqus_thread">Comments</a>
+    <span class="post-date">Jan 6, 2015 &middot; 5 minute read &middot; <a href="http://fzero.rubi.gd/post/setup-vps/#disqus_thread">Comments</a>
     
     <br/>
     <a class="label" href="http://fzero.rubi.gd/categories/linux">Linux</a><a class="label" href="http://fzero.rubi.gd/categories/yandex">Yandex</a><a class="label" href="http://fzero.rubi.gd/categories/mailserver">MailServer</a><a class="label" href="http://fzero.rubi.gd/categories/cloudflare">CloudFlare</a>
@@ -129,6 +129,14 @@
 <p>به هر حال میگه که دو تا رکورد DNS باید اضافه بشه. اولش یه CNAME باید ساخته بشه که مثلا تو عکس بالا باید مقدارش قرار داده بشه yamail-c038a7c8dc21 و یک MX هم باید اضافه بشه برای من این شد :</p>
 
 <p><img src="http://fzero.rubi.gd/images/setup-vps/cf-2.png" alt="افزودن رکورد در cf" /></p>
+
+<p>همچنین برای اینکه نامه‌های ارسالی‌تون به پوشهٔ اسپم نره، بهتره رکورد spf با مشخصات زیر رو هم اضافه کنین:</p>
+
+<ul>
+<li>Subdomain name: @</li>
+<li>Record type: TXT</li>
+<li>Data: v=spf1 redirect=_spf.yandex.net</li>
+</ul>
 
 <p>بعد از اینکه تایید بشه میرید صفحه بعدی، این ممکنه در حد چند دقیقه طول بکشه ولی دکمه رو فشار بدید سعی میکنه تست کنه.</p>
 
