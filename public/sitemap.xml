@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://fzero.rubi.gd/post/first/</loc>
+    <lastmod>2018-05-13T14:36:50+03:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://fzero.rubi.gd/post/go/inject-go-version/</loc>
     <lastmod>2016-05-01T08:01:37+04:30</lastmod>
   </url>
@@ -114,13 +119,19 @@
   
   <url>
     <loc>http://fzero.rubi.gd/post/</loc>
-    <lastmod>2016-05-01T08:01:37+04:30</lastmod>
+    <lastmod>2018-05-13T14:36:50+03:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://fzero.rubi.gd/categories/ssh/</loc>
     <lastmod>2015-01-16T14:36:50+03:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fzero.rubi.gd/categories/story/</loc>
+    <lastmod>2018-05-13T14:36:50+03:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -149,7 +160,7 @@
   
   <url>
     <loc>http://fzero.rubi.gd/</loc>
-    <lastmod>2016-05-01T08:01:37+04:30</lastmod>
+    <lastmod>2018-05-13T14:36:50+03:30</lastmod>
     <priority>0</priority>
   </url>
   
