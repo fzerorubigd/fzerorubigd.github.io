@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on یادداشتهای بیت نیمسوز</title>
+    <link>http://fzero.rubi.gd/categories/</link>
+    <description>Recent content in Categories on یادداشتهای بیت نیمسوز</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-ir</language>
+    
+	<atom:link href="http://fzero.rubi.gd/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloudflare</title>
+      <link>http://fzero.rubi.gd/categories/cloudflare/</link>
+      <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/cloudflare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://fzero.rubi.gd/categories/community/</link>
+      <pubDate>Fri, 19 Dec 2014 15:24:36 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>http://fzero.rubi.gd/categories/general/</link>
+      <pubDate>Thu, 14 Apr 2016 17:00:34 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://fzero.rubi.gd/categories/git/</link>
+      <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://fzero.rubi.gd/categories/go/</link>
+      <pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gpg</title>
+      <link>http://fzero.rubi.gd/categories/gpg/</link>
+      <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/gpg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Honeypot</title>
+      <link>http://fzero.rubi.gd/categories/honeypot/</link>
+      <pubDate>Fri, 12 Dec 2014 15:55:44 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/honeypot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://fzero.rubi.gd/categories/linux/</link>
+      <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mailserver</title>
+      <link>http://fzero.rubi.gd/categories/mailserver/</link>
+      <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/mailserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pgp</title>
+      <link>http://fzero.rubi.gd/categories/pgp/</link>
+      <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/pgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>http://fzero.rubi.gd/categories/ssh/</link>
+      <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trick</title>
+      <link>http://fzero.rubi.gd/categories/trick/</link>
+      <pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/trick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yandex</title>
+      <link>http://fzero.rubi.gd/categories/yandex/</link>
+      <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/yandex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zsh</title>
+      <link>http://fzero.rubi.gd/categories/zsh/</link>
+      <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/zsh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
