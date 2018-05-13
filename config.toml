@@ -12,7 +12,7 @@ disqusShortname = "fzerorubigd"
 [indexes]
    category = "categories"
    tag = "tags"
-[Params]
+[params]
     AuthorName = "fzerorubigd"
     description = "یک وبلاگ دیگر از یک برنامه نویس دیگر"
     # If false display full article contents in blog index.
