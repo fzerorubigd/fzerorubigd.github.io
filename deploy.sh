@@ -21,4 +21,4 @@ git commit -aSs -m "$msg"
 git push origin hugo
 # For prevent any conflict, simply delete the branch master on remote 
 #git push origin :master
-git subtree push --force  --prefix=public git@github.com:fzerorubigd/fzerorubigd.github.io.git master
+git subtree push --prefix=public git@github.com:fzerorubigd/fzerorubigd.github.io.git master
