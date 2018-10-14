@@ -216,7 +216,10 @@ gpg --import /parth/to/public-key.public /path/to/private-key.private
 برای اینکار، همونطور که قبلا گفتم میتونید کلید رو به هر روشی که دوست دارید به دست دیگران برسونید. ولی بهترین روش، انتشارش توی `keyserver‍` هاست. 
 من شخصا تو سرور `mit` منتشر میکنم. منتها سرور `ubuntu‍` هم هست اصولا فرق خاصی نداره، همشون با هم سینک میشن. ابزار تو لینوکس براش زیاده ولی خط فرمانیش :
 
-```gpg --send-keys KEY_ID --keyserver hkp://subkeys.pgp.net``` 
+
+```
+gpg --send-keys KEY_ID --keyserver hkp://subkeys.pgp.net
+``` 
 
 KEY_ID هم میتونید با زدن `gpg --list-keys` ببینید. راه دوم هم اینه که فقط برید به آدرس [http://pgp.mit.edu/](http://pgp.mit.edu/) و توی باکسی که هست، کل اون فایل کلید عمومی رو کپی کنید و تموم :) 
 
@@ -372,8 +375,7 @@ ssh-add -l
 حالا اگه پابلیک کی اینها رو بخواید هم خیلی ساده میتونید از `ssh-add -L ` (ایندفعه ال بزرگ) استفاده کنید. 
 
 
-TODO : pass 
-TODO : yubi-key
+TODO : pass, yubi-key
  
  
 
