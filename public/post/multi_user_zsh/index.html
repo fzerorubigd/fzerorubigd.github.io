@@ -48,9 +48,6 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       
-        <img src="https://www.gravatar.com/avatar/8c7e4f1f1f59ff04755adc03ab2a1dab?s=200"
-             alt="gravatar" title="">
-      
       <h1></h1>
       <p class="lead">یک وبلاگ دیگر از یک برنامه نویس دیگر</p>
     </div>
@@ -150,18 +147,18 @@ source $PROFILE_DIR/zshrc
 <p>برای این کار بادی این آپشن  ‍<code>PermitUserEnvironment</code>
 رو روشن کنید. البته یه ریسک هم داره :</p>
 
-<p><code>Specifies whether ~/.ssh/environment and environment= options in
-     ~/.ssh/authorized_keys are processed by sshd.  The default is
+<pre><code class="language-Specifies">     ~/.ssh/authorized_keys are processed by sshd.  The default is
      &quot;no&quot;.  Enabling environment processing may enable users to bypass
      access restrictions in some configurations using mechanisms such
-     as LD_PRELOAD.</code></p>
-
-<p>بعدش کافیه تو فایل <code>~/.ssh/authorized_keys</code> که کلیدهای ssh خودتون رو اضافه میکنید،‌برای کاربر خودتون
-قبل از کلید خودتون اینو بنویسید :
-‍‍‍<code>
+     as LD_PRELOAD.```
+     
+بعدش کافیه تو فایل `~/.ssh/authorized_keys` که کلیدهای ssh خودتون رو اضافه میکنید،‌برای کاربر خودتون 
+قبل از کلید خودتون اینو بنویسید : 
+‍‍‍```
 PROFILE_DIR=~/.profiles/f0rud/ ssh-rsa AAAAB3NzaC1yc2...
-</code>
-اون اسلش آخر هم لازمه.
+</code></pre>
+
+<p>اون اسلش آخر هم لازمه.
 اینجوری دیگه زمان لاگین از طریق SSH پروفایل درست انتخاب میشه و دیگه نیازی به انتخاب اولیه نیست.</p>
 
   </div>
