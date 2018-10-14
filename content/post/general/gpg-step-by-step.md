@@ -305,6 +305,79 @@ git config --global commit.gpgsign true
 
 دقت کنید که به عکس ۱۱ کیلوبایتی من میگه خیلی بزرگ، که البته حق داره، سبیلهام توی اون عکس خودشون ۱۰-۱۱ کیلویی هستن. 
 
+## SSH
+
+یکی از مکافاتهای همیشگی شخص من این بود که SSH هم برای خودش یه کلید داره و من مجبورم به ازای هر کامپیوترم یه SSH داشته باشم. خب محض اطلاع، تنبلتر از این حرفام. نتیجه اینکه تصمیم گرفتم از GPG استفاده کنم برای اینکار که چندان هم سخت نیست. 
+
+گام اول اینه که یه Authentication key بسازید. اگه این نوشته رو تا اینجا خوندید احتمالا بی خطره که ‍‍`--expert` رو بهتون معرفی کنم. 
+
+اگر ویرایش کلید رو با این فلگ شروع کنید گزینه‌ها خیلی بیشتر میشن. اگه دقت کرده باشین  `addkey` قبلا فقط چهارتا گزینه داشت الان ۱۳ تا. من به جای گزینه ۴ که همیشه برای ساختن زیر کلید Sign یا ۶ که برای Encrypt میزدم، ایندفعه ۸ رو زدم که خودم تعیین کنم. 
+روشش یکم عجیبه، کلیدی که اول میخواد درست کنه برای Sign و Encrypt استفاده میشه، من S و E رو میزنم تا این حالت عوض شه، بعد A رو میزنم که بره به حالت Authenticate . بعد کلید رو میسازم، با اندازه ۴۰۹۶ و تاریخ انقطا که من زدم منقضی نشه، چون تست بود :)) شما بزنید منقضی بشه بعد از یک سال مثلا. و بعد کلید رو میسازید که طبیعتا آنتروپی میخواد و من حوصلم سر رفت و چرت و پرت تایپ کردم و البته نمیدونستم Entropy نوشته میشه با E :)))) 
+
+<script type="text/javascript" src="https://asciinema.org/a/MYUO3nR3T6quiMDVhJwtTUQyR.js" id="asciicast-MYUO3nR3T6quiMDVhJwtTUQyR" async></script>
+
+خب حالا شما یه کلید Authentication دارید. اول بریم سراغ Agent تو تنظیمات gpg-agent توی سیستمتون باید یه خط اضافه کنید :
+
+```
+cat ~/.gnupg/gpg-agent.conf 
+enable-ssh-support
+```
+
+بعد مطمئن شید اگر ssh-agent دارید قبلا ترنیبش رو دادید، بعد خیلی ساده gpg-agent رو ریستارت کنید : 
+
+```
+gpg-connect-agent killagent /bye
+```
+
+گام بعدی اینه که به ssh بفهمونیم از این ایجنت استفاده کنه، نه از اون قبلی. برای اینکار باید ‍`SSH_AUTH_SOCK` رو ست کنیم. تو خیلی از مواقع وقتی systemd یه سری کارای احمقانه ان پشت انجام میده، صرفا ‍‍`export SSH_AUTH_SOCK` کافیه. ولی اگه نشد 
+
+‍‍‍```
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+```
+
+گام بعدی اینه که کلید ssh اتون رو بگیرید. اول باید keygrip کلیدی که ساختین رو داشته باشین : 
+
+```
+gpg --with-keygrip -k fzero@rubi.gd
+
+```
+
+کلیدی که جلوش `[A]` نوشته کلید شماست، keygrip رو کپی کنید، و بعد ببرید و بذاریتش  ته فایل `~/.gnupg/sshcontrol`
+
+```
+cat ~/.gnupg/sshcontrol 
+# List of allowed ssh keys.  Only keys present in this file are used
+# in the SSH protocol.  The ssh-add tool may add new entries to this
+# file to enable them; you may also add them manually.  Comment
+# lines, like this one, as well as empty lines are ignored.  Lines do
+# have a certain length limit but this is not serious limitation as
+# the format of the entries is fixed and checked by gpg-agent. A
+# non-comment line starts with optional white spaces, followed by the
+# keygrip of the key given as 40 hex digits, optionally followed by a
+# caching TTL in seconds, and another optional field for arbitrary
+# flags.   Prepend the keygrip with an '!' mark to disable it.
+
+5D26E7383642EF0B0CEE84FD055A9A3C4B360B56 
+```
+
+خب، حالا به دستور `ssh-add -l` (حرف ال انگلیسی کوچک) 
+```
+ssh-add -l
+2048 SHA256:+d7r1wqrwLqxIRAh0rBKuZNX48+Q0roePdlSJ9b38HA cardno:000606987553 (RSA)
+2048 SHA256:PgvhYW/QO7xkKL1wBu5ulWuqh0DBA7jMCX0c2FEfiDs /home/f0rud/.ssh/id_rsa (RSA)
+4096 SHA256:wTKG3ixGBqXmQX5px5ApJjZvv/HXXVe55ozsCCpC3i4 (none) (RSA)
+```
+
+برای من کلید سومی. البته من کلید ssh معمولی هم دارم رو این ماشین، نمیدونم چرا :) و یکی هم مربوطه به yubi-key .
+حالا اگه پابلیک کی اینها رو بخواید هم خیلی ساده میتونید از `ssh-add -L ` (ایندفعه ال بزرگ) استفاده کنید. 
+
+
+TODO : pass 
+TODO : yubi-key
+ 
+ 
+
+
 
 
 --- دیگه خسته شدم :) این مطلب رو هر موقع حسش باشه آپدیت میکنم و مطالب مرتبط رو اضافه میکنم. شما هم اگه دوست دارید اصلاحیه بزنید یا هر چی اضافه کنید، گیتهاب و پول ریکوئست شما را میخواند :) ---
