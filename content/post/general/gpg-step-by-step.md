@@ -332,13 +332,11 @@ enable-ssh-support
 gpg-connect-agent killagent /bye
 ```
 
-گام بعدی اینه که به ssh بفهمونیم از این ایجنت استفاده کنه، نه از اون قبلی. برای اینکار باید ‍`SSH_AUTH_SOCK` رو ست کنیم. تو خیلی از مواقع وقتی systemd یه سری کارای احمقانه ان پشت انجام میده، صرفا ‍‍`export SSH_AUTH_SOCK` کافیه. ولی اگه نشد 
+گام بعدی اینه که به ssh بفهمونیم از این ایجنت استفاده کنه، نه از اون قبلی. برای اینکار باید ‍`SSH_AUTH_SOCK` رو ست کنیم. تو خیلی از مواقع وقتی systemd یه سری کارای احمقانه ان پشت انجام میده، صرفا ‍‍`export SSH_AUTH_SOCK` کافیه. ولی اگه نشد `export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)` رو تست کنید.
 
-‍‍‍```
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-```
 
 گام بعدی اینه که کلید ssh اتون رو بگیرید. اول باید keygrip کلیدی که ساختین رو داشته باشین : 
+
 
 ```
 gpg --with-keygrip -k fzero@rubi.gd
