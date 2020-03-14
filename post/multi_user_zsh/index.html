@@ -73,7 +73,7 @@
 
     
 
-    <p>Copyright &copy; 2018 <a href="http://fzero.rubi.gd/license/">License</a><br/>
+    <p>Copyright &copy; 2020 <a href="http://fzero.rubi.gd/license/">License</a><br/>
        Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
 
   </div>
@@ -91,63 +91,52 @@
     <p>قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور.
 مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم.
 این کار شاید خوب نباشه، ولی الان بحث من نیست. لطفا نیاید بگید ای داد ای بیداد این مشکل امنیتی داره و فیلان.</p>
-
 <p>مشکل اینه که با این سیستم، همه مجبور به استفاده از یک سری تنظیمات مشترک میشیم. بیشتر از همه این مشکل خودشو تو تنظیمات شل نشون میده. حقیقت اینه که شل اون کاربر به خصوص ثابته،‌ مثلا برای ما zsh.</p>
-
 <p>من یه اسکریپت کوچیک نوشتم که بتونیم هم یه کانفیگ مجزا برای zsh داشته باشیم و هم اینکه بتونیم history رو برای هر کاربر جدا کنیم.</p>
-
 <p>این اون اسکریپته :</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>ROOT=~/.profiles</p>
+<p>if [ -z $PROFILE_DIR ];then
+pushd $ROOT &gt;/dev/null
+FILES=($ROOT/*/)
+FILES+=(&ldquo;Exit&rdquo;)</p>
+<pre><code>select f in ${FILES[*]}
+do
+    if [[ &quot;$f&quot; == 'Exit' ]];then
+        return
+    fi
 
-<p><script src="https://gist.github.com/fzerorubigd/a781e6425b810cbbe336.js"></script>
-<noscript></p>
+    if [ -f &quot;$f/zshrc&quot; ];then
+        PROFILE_DIR=&quot;$f&quot;
+        break
+    fi
+done
 
-<pre><code>#!/bin/env zsh
-# to setup :
-# mkdir $ROOT/yourname
-# $EDITOR $ROOT/yourname/zshrc
-
-ROOT=~/.profiles
-
-if [ -z $PROFILE_DIR ];then
-    pushd $ROOT &gt;/dev/null
-    FILES=($ROOT/*/)
-    FILES+=(&quot;Exit&quot;)
-
-    select f in ${FILES[*]}
-    do
-        if [[ &quot;$f&quot; == 'Exit' ]];then
-            return
-        fi
-
-        if [ -f &quot;$f/zshrc&quot; ];then
-            PROFILE_DIR=&quot;$f&quot;
-            break
-        fi
-    done
-
-    export PROFILE_DIR
-    popd &gt;/dev/null
-fi
-PROFILE_HISTORY=&quot;${PROFILE_DIR}zsh_history&quot;
-export HISTFILE=$PROFILE_HISTORY
-source $PROFILE_DIR/zshrc
-
+export PROFILE_DIR
+popd &gt;/dev/null
 </code></pre>
+<p>fi
+PROFILE_HISTORY=&quot;${PROFILE_DIR}zsh_history&rdquo;
+export HISTFILE=$PROFILE_HISTORY
+source $PROFILE_DIR/zshrc</p>
+<pre><code>&lt;/noscript&gt;
 
-<p></noscript></p>
 
-<p>برای اینکه کار کنه، پوشه <code>~/.profiles</code> رو بسازید، بعد به ازای هر کاربر یه پوشه توی این بسازید
-مثلا برای من میشه <code>~/.profiles/f0rud/</code>
-بعدش فایل <code>zshrc</code> رو برای خودتون بسازید و توی این فولدر بذارید دقت کنید که دیگه دات نداره اسمش.</p>
+برای اینکه کار کنه، پوشه `~/.profiles` رو بسازید، بعد به ازای هر کاربر یه پوشه توی این بسازید
+مثلا برای من میشه `~/.profiles/f0rud/` 
+بعدش فایل `zshrc` رو برای خودتون بسازید و توی این فولدر بذارید دقت کنید که دیگه دات نداره اسمش.
 
-<p>تا اینجا همه چی اوکیه. ولی باحال تر میشه اگه کسی بخواد با ssh کردن، اتوماتیک خودش سوییچ بشه به کانفیگ مورد نظرش.
+
+تا اینجا همه چی اوکیه. ولی باحال تر میشه اگه کسی بخواد با ssh کردن، اتوماتیک خودش سوییچ بشه به کانفیگ مورد نظرش. 
 برای اینکار باید به ssh بگیم که به env های کاربر توی فایل  ‍‍‍‍
-<code>~/.ssh/authorized_keys</code> احترام بذاره.</p>
+`~/.ssh/authorized_keys` احترام بذاره. 
 
-<p>برای این کار بادی این آپشن  ‍<code>PermitUserEnvironment</code>
-رو روشن کنید. البته یه ریسک هم داره :</p>
+برای این کار بادی این آپشن  ‍`PermitUserEnvironment`
+رو روشن کنید. البته یه ریسک هم داره : 
 
-<pre><code class="language-Specifies">     ~/.ssh/authorized_keys are processed by sshd.  The default is
+```Specifies whether ~/.ssh/environment and environment= options in
+     ~/.ssh/authorized_keys are processed by sshd.  The default is
      &quot;no&quot;.  Enabling environment processing may enable users to bypass
      access restrictions in some configurations using mechanisms such
      as LD_PRELOAD.```
@@ -156,9 +145,7 @@ source $PROFILE_DIR/zshrc
 قبل از کلید خودتون اینو بنویسید : 
 ‍‍‍```
 PROFILE_DIR=~/.profiles/f0rud/ ssh-rsa AAAAB3NzaC1yc2...
-</code></pre>
-
-<p>اون اسلش آخر هم لازمه.
+</code></pre><p>اون اسلش آخر هم لازمه.
 اینجوری دیگه زمان لاگین از طریق SSH پروفایل درست انتخاب میشه و دیگه نیازی به انتخاب اولیه نیست.</p>
 
   </div>
