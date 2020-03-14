@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pgp on یادداشتهای بیت نیمسوز</title>
     <link>http://fzero.rubi.gd/categories/pgp/</link>
     <description>Recent content in pgp on یادداشتهای بیت نیمسوز</description>
-=======
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pgp on یادداشتهای بیت نیمسوز</title>
-    <link>http://fzero.rubi.gd/categories/pgp/</link>
-    <description>Recent content in Pgp on یادداشتهای بیت نیمسوز</description>
->>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <lastBuildDate>Fri, 08 Apr 2016 14:35:06 +0430</lastBuildDate>

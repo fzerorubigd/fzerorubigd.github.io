@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-=======
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
->>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-<<<<<<< HEAD
     <loc>http://fzero.rubi.gd/categories/boardgame/</loc>
     <lastmod>2020-03-14T11:59:00+01:00</lastmod>
   </url>
@@ -95,108 +90,11 @@
   <url>
     <loc>http://fzero.rubi.gd/post/go/go-first-commit/</loc>
     <lastmod>2016-04-02T23:31:08+04:30</lastmod>
-=======
-    <loc>http://fzero.rubi.gd/post/stories/first/</loc>
-    <lastmod>2018-05-13T14:36:50+03:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/go/inject-go-version/</loc>
-    <lastmod>2016-05-01T08:01:37+04:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/go/go-web-server/</loc>
-    <lastmod>2016-04-14T17:00:34+04:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/general/gpg-step-by-step/</loc>
-    <lastmod>2016-04-08T14:35:06+04:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/go/go-first-commit/</loc>
-    <lastmod>2016-04-02T23:31:08+04:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/multi_user_zsh/</loc>
-    <lastmod>2015-01-16T14:36:50+03:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/setup-vps/</loc>
-    <lastmod>2015-01-06T09:30:45+03:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/donation/</loc>
-    <lastmod>2014-12-19T15:24:36+03:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/ssh-honey-pot/</loc>
-    <lastmod>2014-12-12T15:55:44+03:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/hello-world-again/</loc>
-    <lastmod>2014-06-29T14:24:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/cloudflare/</loc>
-    <lastmod>2015-01-06T09:30:45+03:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/community/</loc>
-    <lastmod>2014-12-19T15:24:36+03:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/general/</loc>
-    <lastmod>2016-04-14T17:00:34+04:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/git/</loc>
-    <lastmod>2016-04-08T14:35:06+04:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/go/</loc>
-    <lastmod>2016-05-01T08:01:37+04:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/gpg/</loc>
-    <lastmod>2016-04-08T14:35:06+04:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/honeypot/</loc>
-    <lastmod>2014-12-12T15:55:44+03:30</lastmod>
-    <priority>0</priority>
->>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
   </url>
   
   <url>
     <loc>http://fzero.rubi.gd/categories/linux/</loc>
     <lastmod>2015-01-16T14:36:50+03:30</lastmod>
-<<<<<<< HEAD
   </url>
   
   <url>
@@ -261,68 +159,6 @@
   
   <url>
     <loc>http://fzero.rubi.gd/tags/</loc>
-=======
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/mailserver/</loc>
-    <lastmod>2015-01-06T09:30:45+03:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/pgp/</loc>
-    <lastmod>2016-04-08T14:35:06+04:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/post/</loc>
-    <lastmod>2018-05-13T14:36:50+03:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/ssh/</loc>
-    <lastmod>2015-01-16T14:36:50+03:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/story/</loc>
-    <lastmod>2018-05-13T14:36:50+03:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/trick/</loc>
-    <lastmod>2016-05-01T08:01:37+04:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/yandex/</loc>
-    <lastmod>2015-01-06T09:30:45+03:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/categories/zsh/</loc>
-    <lastmod>2015-01-16T14:36:50+03:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fzero.rubi.gd/</loc>
-    <lastmod>2018-05-13T14:36:50+03:30</lastmod>
-    <priority>0</priority>
->>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
   </url>
   
 </urlset>
