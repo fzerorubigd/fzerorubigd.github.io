@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSH on یادداشتهای بیت نیمسوز</title>
     <link>http://fzero.rubi.gd/categories/ssh/</link>
     <description>Recent content in SSH on یادداشتهای بیت نیمسوز</description>
-=======
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ssh on یادداشتهای بیت نیمسوز</title>
-    <link>http://fzero.rubi.gd/categories/ssh/</link>
-    <description>Recent content in Ssh on یادداشتهای بیت نیمسوز</description>
->>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate>
