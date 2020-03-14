@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on یادداشتهای بیت نیمسوز</title>
@@ -6,35 +10,71 @@
     <description>Recent content in Categories on یادداشتهای بیت نیمسوز</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
+<<<<<<< HEAD
     <lastBuildDate>Sat, 14 Mar 2020 11:59:00 +0100</lastBuildDate>
+=======
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
     
 	<atom:link href="http://fzero.rubi.gd/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>boardgame</title>
       <link>http://fzero.rubi.gd/categories/boardgame/</link>
       <pubDate>Sat, 14 Mar 2020 11:59:00 +0100</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/boardgame/</guid>
+=======
+      <title>Cloudflare</title>
+      <link>http://fzero.rubi.gd/categories/cloudflare/</link>
+      <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/cloudflare/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>language</title>
       <link>http://fzero.rubi.gd/categories/language/</link>
       <pubDate>Sat, 14 Mar 2020 11:59:00 +0100</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/language/</guid>
+=======
+      <title>Community</title>
+      <link>http://fzero.rubi.gd/categories/community/</link>
+      <pubDate>Fri, 19 Dec 2014 15:24:36 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/community/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>story</title>
       <link>http://fzero.rubi.gd/categories/story/</link>
       <pubDate>Sun, 13 May 2018 14:36:50 +0330</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/story/</guid>
+=======
+      <title>General</title>
+      <link>http://fzero.rubi.gd/categories/general/</link>
+      <pubDate>Thu, 14 Apr 2016 17:00:34 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://fzero.rubi.gd/categories/git/</link>
+      <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/git/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
@@ -48,43 +88,79 @@
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>trick</title>
       <link>http://fzero.rubi.gd/categories/trick/</link>
       <pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/trick/</guid>
+=======
+      <title>Gpg</title>
+      <link>http://fzero.rubi.gd/categories/gpg/</link>
+      <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/gpg/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>general</title>
       <link>http://fzero.rubi.gd/categories/general/</link>
       <pubDate>Thu, 14 Apr 2016 17:00:34 +0430</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/general/</guid>
+=======
+      <title>Honeypot</title>
+      <link>http://fzero.rubi.gd/categories/honeypot/</link>
+      <pubDate>Fri, 12 Dec 2014 15:55:44 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/honeypot/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>git</title>
       <link>http://fzero.rubi.gd/categories/git/</link>
       <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/git/</guid>
+=======
+      <title>Linux</title>
+      <link>http://fzero.rubi.gd/categories/linux/</link>
+      <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/linux/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>gpg</title>
       <link>http://fzero.rubi.gd/categories/gpg/</link>
       <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/gpg/</guid>
+=======
+      <title>Mailserver</title>
+      <link>http://fzero.rubi.gd/categories/mailserver/</link>
+      <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/mailserver/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>pgp</title>
+=======
+      <title>Pgp</title>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <link>http://fzero.rubi.gd/categories/pgp/</link>
       <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
       
@@ -93,6 +169,7 @@
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>Linux</title>
       <link>http://fzero.rubi.gd/categories/linux/</link>
       <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
@@ -103,6 +180,9 @@
     
     <item>
       <title>SSH</title>
+=======
+      <title>Ssh</title>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <link>http://fzero.rubi.gd/categories/ssh/</link>
       <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
       
@@ -111,6 +191,7 @@
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>ZSH</title>
       <link>http://fzero.rubi.gd/categories/zsh/</link>
       <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
@@ -125,15 +206,30 @@
       <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/cloudflare/</guid>
+=======
+      <title>Story</title>
+      <link>http://fzero.rubi.gd/categories/story/</link>
+      <pubDate>Sun, 13 May 2018 14:36:50 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/story/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>MailServer</title>
       <link>http://fzero.rubi.gd/categories/mailserver/</link>
       <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/mailserver/</guid>
+=======
+      <title>Trick</title>
+      <link>http://fzero.rubi.gd/categories/trick/</link>
+      <pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/trick/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
@@ -147,6 +243,7 @@
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>Community</title>
       <link>http://fzero.rubi.gd/categories/community/</link>
       <pubDate>Fri, 19 Dec 2014 15:24:36 +0330</pubDate>
@@ -161,6 +258,13 @@
       <pubDate>Fri, 12 Dec 2014 15:55:44 +0330</pubDate>
       
       <guid>http://fzero.rubi.gd/categories/honeypot/</guid>
+=======
+      <title>Zsh</title>
+      <link>http://fzero.rubi.gd/categories/zsh/</link>
+      <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
+      
+      <guid>http://fzero.rubi.gd/categories/zsh/</guid>
+>>>>>>> 2d3913bc89f225f176c48455674b638560ee6e59
       <description></description>
     </item>
     
