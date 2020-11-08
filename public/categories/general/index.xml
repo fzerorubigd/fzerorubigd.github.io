@@ -6,11 +6,7 @@
     <description>Recent content in general on یادداشتهای بیت نیمسوز</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Thu, 14 Apr 2016 17:00:34 +0430</lastBuildDate>
-    
-	<atom:link href="http://fzero.rubi.gd/categories/general/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 14 Apr 2016 17:00:34 +0430</lastBuildDate><atom:link href="http://fzero.rubi.gd/categories/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>go web server on port 80</title>
       <link>http://fzero.rubi.gd/post/go/go-web-server/</link>

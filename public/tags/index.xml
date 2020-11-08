@@ -5,10 +5,6 @@
     <link>http://fzero.rubi.gd/tags/</link>
     <description>Recent content in Tags on یادداشتهای بیت نیمسوز</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fa-ir</language>
-    
-	<atom:link href="http://fzero.rubi.gd/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fa-ir</language><atom:link href="http://fzero.rubi.gd/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
