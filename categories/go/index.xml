@@ -6,11 +6,7 @@
     <description>Recent content in Go on یادداشتهای بیت نیمسوز</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Sun, 01 May 2016 08:01:37 +0430</lastBuildDate>
-    
-	<atom:link href="http://fzero.rubi.gd/categories/go/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 May 2016 08:01:37 +0430</lastBuildDate><atom:link href="http://fzero.rubi.gd/categories/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>تزریق! نسخه به باینری وقت کامپایل #Golang</title>
       <link>http://fzero.rubi.gd/post/go/inject-go-version/</link>

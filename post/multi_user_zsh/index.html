@@ -94,8 +94,13 @@
 <p>مشکل اینه که با این سیستم، همه مجبور به استفاده از یک سری تنظیمات مشترک میشیم. بیشتر از همه این مشکل خودشو تو تنظیمات شل نشون میده. حقیقت اینه که شل اون کاربر به خصوص ثابته،‌ مثلا برای ما zsh.</p>
 <p>من یه اسکریپت کوچیک نوشتم که بتونیم هم یه کانفیگ مجزا برای zsh داشته باشیم و هم اینکه بتونیم history رو برای هر کاربر جدا کنیم.</p>
 <p>این اون اسکریپته :</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/fzerorubigd/a781e6425b810cbbe336.js"></script>
+<noscript>
+```
+#!/bin/env zsh
+# to setup :
+# mkdir $ROOT/yourname
+# $EDITOR $ROOT/yourname/zshrc
 <p>ROOT=~/.profiles</p>
 <p>if [ -z $PROFILE_DIR ];then
 pushd $ROOT &gt;/dev/null
@@ -117,7 +122,7 @@ export PROFILE_DIR
 popd &gt;/dev/null
 </code></pre>
 <p>fi
-PROFILE_HISTORY=&quot;${PROFILE_DIR}zsh_history&rdquo;
+PROFILE_HISTORY=&quot;${PROFILE_DIR}zsh_history&quot;
 export HISTFILE=$PROFILE_HISTORY
 source $PROFILE_DIR/zshrc</p>
 <pre><code>&lt;/noscript&gt;

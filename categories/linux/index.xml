@@ -6,11 +6,7 @@
     <description>Recent content in Linux on یادداشتهای بیت نیمسوز</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate>
-    
-	<atom:link href="http://fzero.rubi.gd/categories/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate><atom:link href="http://fzero.rubi.gd/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>چند کاربر با یک zsh</title>
       <link>http://fzero.rubi.gd/post/multi_user_zsh/</link>
