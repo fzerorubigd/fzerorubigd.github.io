@@ -64,3 +64,6 @@ disqusShortname = "fzerorubigd"
 
     # Other social-like sidebar links
     rss = true  # switch to true to enable RSS icon link
+
+[markup.goldmark.renderer]
+unsafe= true
