@@ -3,7 +3,7 @@ title: "ناهمگون : یک"
 date: 2021-08-06T14:54:30+02:00
 slug: "yek"
 draft: false
-categories: ["Nahamgoon", "Podcast"]
+categories: ["nahamgoon", "podcast", "boardgame"]
 ---
 
 من خیلی آدم ادامه دادن نوشتن نیستم. اینم شاید یه تجربه مشابه دیگه باشه. ایندفعه حتی یک درجه جلوتر بردمش و میخوام یک پادکست هم به صورت موازی راه بندازم. 
