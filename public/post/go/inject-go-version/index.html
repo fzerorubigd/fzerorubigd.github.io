@@ -118,9 +118,9 @@
 	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">variable</span>)
 }
 </code></pre></div><p>کامپایلش کنید طبیعیه که خروجی یه خط خالیه. ولی حالا اینجوری کامپایلش کنید :</p>
-<pre><code>go build -ldflags &quot;-X main.variable=value&quot;
+<pre tabindex="0"><code>go build -ldflags &quot;-X main.variable=value&quot;
 </code></pre><p>و دیگه خروجی خالی نیست. اگه از <a href="https://getgb.io/">gb</a> استفاده میکنید (من استفاده میکنم :) ) اونهم این فلگ رو میشناسه. مثلا من این خطوط رو اول Makefile گذاشتم :</p>
-<pre><code>export LONGHASH=$(shell git log -n1 --pretty=&quot;format:%H&quot; | cat)
+<pre tabindex="0"><code>export LONGHASH=$(shell git log -n1 --pretty=&quot;format:%H&quot; | cat)
 export SHORTHASH=$(shell git log -n1 --pretty=&quot;format:%h&quot;| cat)
 export COMMITDATE=$(shell git log -n1 --pretty=&quot;format:%cd&quot;| sed -e &quot;s/ /-/g&quot;)
 export COMMITCOUNT=$(shell git rev-list HEAD --count| cat)
@@ -128,9 +128,9 @@ export BUILDDATE=$(shell date| sed -e &quot;s/ /-/g&quot;)
 export FLAGS=&quot;-X shared/config.hash=$(LONGHASH) -X shared/config.short=$(SHORTHASH) -X shared/config.date=$(COMMITDATE) -X shared/config.count=$(COMMITCOUNT) -X shared/config.build=$(BUILDDATE)&quot;
 export LDARG=-ldflags $(FLAGS)
 </code></pre><p>و هر وقت تو Makefile بخوام چیزی رو کامپایل کنم اینجوری میشه :</p>
-<pre><code>$(BIN)/gb build $(LDARG)
+<pre tabindex="0"><code>$(BIN)/gb build $(LDARG)
 </code></pre><p>تو پکیج <code>shared/config</code> هم چنین چیزی دارم :</p>
-<pre><code>// The following variables are injected at compile time, do not edit
+<pre tabindex="0"><code>// The following variables are injected at compile time, do not edit
 var (
 	hash  string
 	short string
