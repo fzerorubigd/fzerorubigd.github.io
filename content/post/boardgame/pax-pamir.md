@@ -2,6 +2,8 @@
 title: "در ستایش تاریخ و بوردگیم و ..."
 date: 2021-10-04T19:34:16+02:00
 draft: false
+thumbnail: "/images/paxpamir/cover.jpeg"
+categories: ["history", "boardgame"]
 ---
 ![Pax Pamir Cover](/images/paxpamir/cover.jpeg)
 
