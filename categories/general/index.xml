@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>General on یادداشتهای پراکنده بیت‌نیمسوز</title>
-    <link>http://localhost:41109/categories/general/</link>
+    <link>https://fzero.rubi.gd/categories/general/</link>
     <description>Recent content in General on یادداشتهای پراکنده بیت‌نیمسوز</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>fa-ir</language>
     <lastBuildDate>Thu, 14 Apr 2016 17:00:34 +0430</lastBuildDate>
-    <atom:link href="http://localhost:41109/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fzero.rubi.gd/categories/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>go web server on port 80</title>
-      <link>http://localhost:41109/post/go/go-web-server/</link>
+      <link>https://fzero.rubi.gd/post/go/go-web-server/</link>
       <pubDate>Thu, 14 Apr 2016 17:00:34 +0430</pubDate>
-      <guid>http://localhost:41109/post/go/go-web-server/</guid>
+      <guid>https://fzero.rubi.gd/post/go/go-web-server/</guid>
       <description>&lt;p&gt;Golang یک کتابخانه عالی &lt;a href=&#34;https://golang.org/pkg/net/http/&#34;&gt;http&lt;/a&gt; داره که کلی قابلیت بهت میده. مثلا &lt;a href=&#34;http://http2.golang.org/&#34;&gt;http2&lt;/a&gt; و  قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به &lt;a href=&#34;https://golang.org/pkg/net/http/#ServeContent&#34;&gt;سادگی آب خوردن&lt;/a&gt; پیاده میشه.
 من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا &lt;a href=&#34;https://www.nginx.com/&#34;&gt;nginx&lt;/a&gt; و هنوزم خیلی وقتا اینکار رو میکنم.
 منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.&lt;/p&gt;</description>

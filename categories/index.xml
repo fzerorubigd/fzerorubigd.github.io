@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on یادداشتهای پراکنده بیت‌نیمسوز</title>
-    <link>http://localhost:41109/categories/</link>
+    <link>https://fzero.rubi.gd/categories/</link>
     <description>Recent content in Categories on یادداشتهای پراکنده بیت‌نیمسوز</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>fa-ir</language>
     <lastBuildDate>Mon, 04 Oct 2021 19:34:16 +0200</lastBuildDate>
-    <atom:link href="http://localhost:41109/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fzero.rubi.gd/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Boardgame</title>
-      <link>http://localhost:41109/categories/boardgame/</link>
+      <link>https://fzero.rubi.gd/categories/boardgame/</link>
       <pubDate>Mon, 04 Oct 2021 19:34:16 +0200</pubDate>
-      <guid>http://localhost:41109/categories/boardgame/</guid>
+      <guid>https://fzero.rubi.gd/categories/boardgame/</guid>
       <description></description>
     </item>
     <item>
       <title>History</title>
-      <link>http://localhost:41109/categories/history/</link>
+      <link>https://fzero.rubi.gd/categories/history/</link>
       <pubDate>Mon, 04 Oct 2021 19:34:16 +0200</pubDate>
-      <guid>http://localhost:41109/categories/history/</guid>
+      <guid>https://fzero.rubi.gd/categories/history/</guid>
       <description></description>
     </item>
     <item>
       <title>Story</title>
-      <link>http://localhost:41109/categories/story/</link>
+      <link>https://fzero.rubi.gd/categories/story/</link>
       <pubDate>Sun, 13 May 2018 14:36:50 +0330</pubDate>
-      <guid>http://localhost:41109/categories/story/</guid>
+      <guid>https://fzero.rubi.gd/categories/story/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>http://localhost:41109/categories/go/</link>
+      <link>https://fzero.rubi.gd/categories/go/</link>
       <pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
-      <guid>http://localhost:41109/categories/go/</guid>
+      <guid>https://fzero.rubi.gd/categories/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Trick</title>
-      <link>http://localhost:41109/categories/trick/</link>
+      <link>https://fzero.rubi.gd/categories/trick/</link>
       <pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
-      <guid>http://localhost:41109/categories/trick/</guid>
+      <guid>https://fzero.rubi.gd/categories/trick/</guid>
       <description></description>
     </item>
     <item>
       <title>General</title>
-      <link>http://localhost:41109/categories/general/</link>
+      <link>https://fzero.rubi.gd/categories/general/</link>
       <pubDate>Thu, 14 Apr 2016 17:00:34 +0430</pubDate>
-      <guid>http://localhost:41109/categories/general/</guid>
+      <guid>https://fzero.rubi.gd/categories/general/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:41109/categories/git/</link>
+      <link>https://fzero.rubi.gd/categories/git/</link>
       <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
-      <guid>http://localhost:41109/categories/git/</guid>
+      <guid>https://fzero.rubi.gd/categories/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Gpg</title>
-      <link>http://localhost:41109/categories/gpg/</link>
+      <link>https://fzero.rubi.gd/categories/gpg/</link>
       <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
-      <guid>http://localhost:41109/categories/gpg/</guid>
+      <guid>https://fzero.rubi.gd/categories/gpg/</guid>
       <description></description>
     </item>
     <item>
       <title>Pgp</title>
-      <link>http://localhost:41109/categories/pgp/</link>
+      <link>https://fzero.rubi.gd/categories/pgp/</link>
       <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
-      <guid>http://localhost:41109/categories/pgp/</guid>
+      <guid>https://fzero.rubi.gd/categories/pgp/</guid>
       <description></description>
     </item>
   </channel>

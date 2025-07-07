@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=41109&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>go web server on port 80 | یادداشتهای پراکنده بیت‌نیمسوز</title>
 <meta name="keywords" content="go, webserver, unprivilaged">
 <meta name="description" content="Golang یک کتابخانه عالی http داره که کلی قابلیت بهت میده. مثلا http2 و  قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به سادگی آب خوردن پیاده میشه.
 من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا nginx و هنوزم خیلی وقتا اینکار رو میکنم.
 منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:41109/post/go/go-web-server/">
-<link crossorigin="anonymous" href="http://localhost:41109/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:41109/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:41109/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:41109/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:41109/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:41109/safari-pinned-tab.svg">
+<link rel="canonical" href="https://fzero.rubi.gd/post/go/go-web-server/">
+<link crossorigin="anonymous" href="https://fzero.rubi.gd/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://fzero.rubi.gd/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fzero.rubi.gd/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fzero.rubi.gd/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://fzero.rubi.gd/apple-touch-icon.png">
+<link rel="mask-icon" href="https://fzero.rubi.gd/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:41109/post/go/go-web-server/">
+<link rel="alternate" hreflang="en" href="https://fzero.rubi.gd/post/go/go-web-server/">
 <noscript>
     <style>
         #theme-toggle,
@@ -57,7 +57,71 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://fzero.rubi.gd/post/go/go-web-server/">
+  <meta property="og:site_name" content="یادداشتهای پراکنده بیت‌نیمسوز">
+  <meta property="og:title" content="go web server on port 80">
+  <meta property="og:description" content="Golang یک کتابخانه عالی http داره که کلی قابلیت بهت میده. مثلا http2 و قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به سادگی آب خوردن پیاده میشه. من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا nginx و هنوزم خیلی وقتا اینکار رو میکنم. منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.">
+  <meta property="og:locale" content="fa-ir">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2016-04-14T17:00:34+04:30">
+    <meta property="article:modified_time" content="2016-04-14T17:00:34+04:30">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="go web server on port 80">
+<meta name="twitter:description" content="Golang یک کتابخانه عالی http داره که کلی قابلیت بهت میده. مثلا http2 و  قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به سادگی آب خوردن پیاده میشه.
+من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا nginx و هنوزم خیلی وقتا اینکار رو میکنم.
+منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://fzero.rubi.gd/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "go web server on port 80",
+      "item": "https://fzero.rubi.gd/post/go/go-web-server/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "go web server on port 80",
+  "name": "go web server on port 80",
+  "description": "Golang یک کتابخانه عالی http داره که کلی قابلیت بهت میده. مثلا http2 و قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به سادگی آب خوردن پیاده میشه. من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا nginx و هنوزم خیلی وقتا اینکار رو میکنم. منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.\n",
+  "keywords": [
+    "go", "webserver", "unprivilaged"
+  ],
+  "articleBody": "Golang یک کتابخانه عالی http داره که کلی قابلیت بهت میده. مثلا http2 و قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به سادگی آب خوردن پیاده میشه. من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا nginx و هنوزم خیلی وقتا اینکار رو میکنم. منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.\nخوب اوکی، وب سرور آماده کاره، کد من چی؟آیا عاقلانست کدم رو با دسترسی روت اجرا کنم؟ چرا با روت؟ چون میخوام رو پورت ۸۰ یا ۴۴۳ گوش وایسه وب سرورم، و طبق استاندارد، فقط برنامه های اجرا شده با دسترسی روت میتونن روی پورتهای پایینتر از ۱۰۲۴ گوش وایسن.\nخوب یه کم نا امید کنندست. من هرگز همچین کاری نمیکنم. میشه انداختش توی داکر و امنیتش رو تا حدی تضمین کرد . دست کم اینه که اگه تو کد من زدم rm -rf همه چی نمیترکه. ولی راه ساده ترش ایه که به این فایل به خصوص اجازه بدیم رو پورتهای کمتر از ۱۰۲۴ هم گوش وایسه :\n# setcap cap_net_bind_service=+ep /path/to/executable طبیعیه که # به معنی اینه که این دستور با دسترسی روت اجرا میشه. بعد از این دستور این برنامه میتونه روی پورتهای پایینتر هم گوش وایسه.\nبرای اینکه بفهمید چه اتفاقی میفته، اول man setcap رو ببینید و برای لیست capabilities هم طبیعتا man capabilities رو.\n– همین.\n",
+  "wordCount" : "269",
+  "inLanguage": "en",
+  "datePublished": "2016-04-14T17:00:34+04:30",
+  "dateModified": "2016-04-14T17:00:34+04:30",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fzero.rubi.gd/post/go/go-web-server/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "یادداشتهای پراکنده بیت‌نیمسوز",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fzero.rubi.gd/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -75,7 +139,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:41109/" accesskey="h" title="یادداشتهای پراکنده بیت‌نیمسوز (Alt + H)">یادداشتهای پراکنده بیت‌نیمسوز</a>
+            <a href="https://fzero.rubi.gd/" accesskey="h" title="یادداشتهای پراکنده بیت‌نیمسوز (Alt + H)">یادداشتهای پراکنده بیت‌نیمسوز</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -138,7 +202,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:41109/">یادداشتهای پراکنده بیت‌نیمسوز</a></span> · 
+        <span>&copy; 2025 <a href="https://fzero.rubi.gd/">یادداشتهای پراکنده بیت‌نیمسوز</a></span> · 
 
     <span>
         Powered by

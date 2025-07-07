@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Trick on یادداشتهای پراکنده بیت‌نیمسوز</title>
-    <link>http://localhost:41109/categories/trick/</link>
+    <link>https://fzero.rubi.gd/categories/trick/</link>
     <description>Recent content in Trick on یادداشتهای پراکنده بیت‌نیمسوز</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>fa-ir</language>
     <lastBuildDate>Sun, 01 May 2016 08:01:37 +0430</lastBuildDate>
-    <atom:link href="http://localhost:41109/categories/trick/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fzero.rubi.gd/categories/trick/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>تزریق! نسخه به باینری وقت کامپایل #Golang</title>
-      <link>http://localhost:41109/post/go/inject-go-version/</link>
+      <link>https://fzero.rubi.gd/post/go/inject-go-version/</link>
       <pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
-      <guid>http://localhost:41109/post/go/inject-go-version/</guid>
+      <guid>https://fzero.rubi.gd/post/go/inject-go-version/</guid>
       <description>برای این قسمت تصمیم گرفتم اسم سرخ پوستی بذارم، یه چیزی تو مایه های لطفا بمیر پلن ناین لعنتی!</description>
     </item>
   </channel>
