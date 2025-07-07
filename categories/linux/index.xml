@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Linux on یادداشتهای بیت نیمسوز</title>
-    <link>http://fzero.rubi.gd/categories/linux/</link>
-    <description>Recent content in Linux on یادداشتهای بیت نیمسوز</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fa-ir</language>
-    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate><atom:link href="http://fzero.rubi.gd/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <title>Linux on یادداشتهای پراکنده بیت‌نیمسوز</title>
+    <link>http://localhost:1313/categories/linux/</link>
+    <description>Recent content in Linux on یادداشتهای پراکنده بیت‌نیمسوز</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>چند کاربر با یک zsh</title>
-      <link>http://fzero.rubi.gd/post/multi_user_zsh/</link>
+      <link>http://localhost:1313/post/multi_user_zsh/</link>
       <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/multi_user_zsh/</guid>
-      <description>قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور. مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم. این کار شاید خوب نباشه، ولی الان بحث من نیست.</description>
+      <guid>http://localhost:1313/post/multi_user_zsh/</guid>
+      <description>&lt;p&gt;قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور.
+مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم.
+این کار شاید خوب نباشه، ولی الان بحث من نیست. لطفا نیاید بگید ای داد ای بیداد این مشکل امنیتی داره و فیلان.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>setup vps</title>
-      <link>http://fzero.rubi.gd/post/setup-vps/</link>
+      <link>http://localhost:1313/post/setup-vps/</link>
       <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/setup-vps/</guid>
-      <description>من با ترمینال غریبه نیستم، حقیقت اینه که خیلی هم باهاش راحتم. اینکه بخوام یه برنامه رو تو ترمینال نصب کنم و کانفیگ کنم اصولا ترجیح منه، ولی این یه جفت استثنا هم داره. این یه جفت استثنا، تنظیم dns (باز tinydns خیلی بهتره، از bind متنفرم رسما!) و یکی هم تنظیم mail server برای دریافت و ارسال ایمیل، ارسال معولا راحته، ولی دریافت رو اصلا حسشو ندارم :)) الان اگه شما حسشو دارید، و اینکار براتون راحته، سیستمتون هم به اندازه کافی قدرتمند هست که مثلا یه roundcube راه بندازید روش، همین جا دیگه ادامه ندید :) و خیلی خوشحالم که تا همین قسمتشو خوندید :))</description>
+      <guid>http://localhost:1313/post/setup-vps/</guid>
+      <description>&lt;p&gt;من با ترمینال غریبه نیستم، حقیقت اینه که خیلی هم باهاش راحتم. اینکه بخوام یه برنامه رو تو ترمینال نصب کنم و کانفیگ کنم اصولا ترجیح منه، ولی این یه جفت استثنا هم داره. این یه جفت استثنا، تنظیم dns (باز tinydns خیلی بهتره، از bind متنفرم رسما!) و یکی هم تنظیم mail server برای دریافت و ارسال ایمیل، ارسال معولا راحته، ولی دریافت رو اصلا حسشو ندارم :)) الان اگه شما حسشو دارید، و اینکار براتون راحته، سیستمتون هم به اندازه کافی قدرتمند هست که مثلا یه roundcube راه بندازید روش، همین جا دیگه ادامه ندید :) و خیلی خوشحالم که تا همین قسمتشو خوندید :))&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

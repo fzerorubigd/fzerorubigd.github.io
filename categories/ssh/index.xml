@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>SSH on یادداشتهای بیت نیمسوز</title>
-    <link>http://fzero.rubi.gd/categories/ssh/</link>
-    <description>Recent content in SSH on یادداشتهای بیت نیمسوز</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fa-ir</language>
-    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate><atom:link href="http://fzero.rubi.gd/categories/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <title>SSH on یادداشتهای پراکنده بیت‌نیمسوز</title>
+    <link>http://localhost:1313/categories/ssh/</link>
+    <description>Recent content in SSH on یادداشتهای پراکنده بیت‌نیمسوز</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>چند کاربر با یک zsh</title>
-      <link>http://fzero.rubi.gd/post/multi_user_zsh/</link>
+      <link>http://localhost:1313/post/multi_user_zsh/</link>
       <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/multi_user_zsh/</guid>
-      <description>قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور. مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم. این کار شاید خوب نباشه، ولی الان بحث من نیست.</description>
+      <guid>http://localhost:1313/post/multi_user_zsh/</guid>
+      <description>&lt;p&gt;قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور.
+مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم.
+این کار شاید خوب نباشه، ولی الان بحث من نیست. لطفا نیاید بگید ای داد ای بیداد این مشکل امنیتی داره و فیلان.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>گور بدون مرده - ssh-honeypot</title>
-      <link>http://fzero.rubi.gd/post/ssh-honey-pot/</link>
+      <link>http://localhost:1313/post/ssh-honey-pot/</link>
       <pubDate>Fri, 12 Dec 2014 15:55:44 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/ssh-honey-pot/</guid>
-      <description>یکی از تکنیکهای امنیتی که بهش هانی‌پات یا همون کندوی عسل هم میگن، اینه که یه سرویس جعلی ایجاد کنی و بعد اونو به جای سرویس اصلی بذاری. این سرویس نباید خیلی سنگین باشه، معمولا پشتش هیچی نیست و هر کاری هم که صورت بگیره آخرش اتفاق خاصی قرار نیست بیفته. اون کسی که قصد نفوذ به سیستم رو داره گیر این تله میفته و به جای اینکه واقعا برسه به سرویس اصلی با یه نسخه احمقانه سرش گرم میشه:)</description>
+      <guid>http://localhost:1313/post/ssh-honey-pot/</guid>
+      <description>&lt;p&gt;یکی از تکنیکهای امنیتی که بهش هانی‌پات یا همون کندوی عسل هم میگن، اینه که یه سرویس جعلی ایجاد کنی و بعد اونو به جای سرویس اصلی بذاری. این سرویس نباید خیلی سنگین باشه، معمولا پشتش هیچی نیست و هر کاری هم که صورت بگیره آخرش اتفاق خاصی قرار نیست بیفته. اون کسی که قصد نفوذ به سیستم رو داره گیر این تله میفته و به جای اینکه واقعا برسه به سرویس اصلی با یه نسخه احمقانه سرش گرم میشه:)&lt;br&gt;
+این سرویس جعلی باید کاملا مشابه سرویس اصلی باشه. حتی ایده‌آلش اینه که به کاربر اکسس هم بده و بندازتش تو یه محیط محدود مثل موش آزمایشگاهی :)))&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

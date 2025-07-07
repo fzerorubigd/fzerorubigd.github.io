@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ZSH on یادداشتهای بیت نیمسوز</title>
-    <link>http://fzero.rubi.gd/categories/zsh/</link>
-    <description>Recent content in ZSH on یادداشتهای بیت نیمسوز</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fa-ir</language>
-    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate><atom:link href="http://fzero.rubi.gd/categories/zsh/index.xml" rel="self" type="application/rss+xml" />
+    <title>ZSH on یادداشتهای پراکنده بیت‌نیمسوز</title>
+    <link>http://localhost:1313/categories/zsh/</link>
+    <description>Recent content in ZSH on یادداشتهای پراکنده بیت‌نیمسوز</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Fri, 16 Jan 2015 14:36:50 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/zsh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>چند کاربر با یک zsh</title>
-      <link>http://fzero.rubi.gd/post/multi_user_zsh/</link>
+      <link>http://localhost:1313/post/multi_user_zsh/</link>
       <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/multi_user_zsh/</guid>
-      <description>قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور. مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم. این کار شاید خوب نباشه، ولی الان بحث من نیست.</description>
+      <guid>http://localhost:1313/post/multi_user_zsh/</guid>
+      <description>&lt;p&gt;قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور.
+مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم.
+این کار شاید خوب نباشه، ولی الان بحث من نیست. لطفا نیاید بگید ای داد ای بیداد این مشکل امنیتی داره و فیلان.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

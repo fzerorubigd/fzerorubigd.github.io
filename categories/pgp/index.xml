@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>pgp on یادداشتهای بیت نیمسوز</title>
-    <link>http://fzero.rubi.gd/categories/pgp/</link>
-    <description>Recent content in pgp on یادداشتهای بیت نیمسوز</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Pgp on یادداشتهای پراکنده بیت‌نیمسوز</title>
+    <link>http://localhost:41109/categories/pgp/</link>
+    <description>Recent content in Pgp on یادداشتهای پراکنده بیت‌نیمسوز</description>
+    <generator>Hugo -- 0.147.9</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Fri, 08 Apr 2016 14:35:06 +0430</lastBuildDate><atom:link href="http://fzero.rubi.gd/categories/pgp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2016 14:35:06 +0430</lastBuildDate>
+    <atom:link href="http://localhost:41109/categories/pgp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GPG یک راهنمای نسبتا مفصل</title>
-      <link>http://fzero.rubi.gd/post/general/gpg-step-by-step/</link>
+      <title>یک راهنمای نسبتا مفصل GPG</title>
+      <link>http://localhost:41109/post/general/gpg-step-by-step/</link>
       <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/general/gpg-step-by-step/</guid>
-      <description>GPG یا PGP چی هست اصلا؟ این یک الگوریتم رمز گذاری شخصی حساب میشه. در حقیقت PGP اون الگوریتمه، و من از برنامه آزاد GPG برای مدیریتش استفاده میکنم. درسته که بگم این این کلید PGP منه، ولی حقیقت اینه که ناخواسته خیلی وقتا متوجه میشم که گفتم این کلید GPG منه، عمدی نیست ولی از لحاظ تکنیکی اگه اهل خورده گرفتن باشی غلط میتونه باشه.
-من سعی دارم تو این نوشته، توضیح بدم که چطور میشه یه کلید ساخت و مطمئن شد که امنه.</description>
+      <guid>http://localhost:41109/post/general/gpg-step-by-step/</guid>
+      <description>&lt;div dir=&#34;rtl&#34;&gt;
+  
+    &lt;h1 id=&#34;مقدمه&#34;&gt;مقدمه&lt;/h1&gt;
+&lt;p&gt;این مقدمه رو نزدیک به نه سال بعد از این نوشته اضافه میکنم. این نوشته من بیشترین بازدید این وبلاگ رو داره و من بارها کپی های مختلفی ازش دیدم. خودم کم و بیش از همین روش استفاده میکنم و دلم میخواست یک بار مرتبش کنم ولی خب، وقت و حسش نیست.
+این روزا دارم سعی میکنم که بیشتر بنویسم و برای همین یه دستی میخوام به سر و روی اینجا بکشم ولی بعید میدونم این نوشته به روز رسانی بشه. اینه که اگه دوست دارید کپیش کنید، بهترش کنید سادش کنید یا هرچی، اینکار رو بکنید و بازنشرش کنید. لزومی هم نیست که به این نوشته به خصوص لینک بدید، اگه دادید که چه بهتر ولی لازم هم نیست.
+خلاصه همین.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
