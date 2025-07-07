@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Honeypot on یادداشتهای بیت نیمسوز</title>
-    <link>http://fzero.rubi.gd/categories/honeypot/</link>
-    <description>Recent content in Honeypot on یادداشتهای بیت نیمسوز</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fa-ir</language>
-    <lastBuildDate>Fri, 12 Dec 2014 15:55:44 +0330</lastBuildDate><atom:link href="http://fzero.rubi.gd/categories/honeypot/index.xml" rel="self" type="application/rss+xml" />
+    <title>Honeypot on یادداشتهای پراکنده بیت‌نیمسوز</title>
+    <link>http://localhost:1313/categories/honeypot/</link>
+    <description>Recent content in Honeypot on یادداشتهای پراکنده بیت‌نیمسوز</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Fri, 12 Dec 2014 15:55:44 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/honeypot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>گور بدون مرده - ssh-honeypot</title>
-      <link>http://fzero.rubi.gd/post/ssh-honey-pot/</link>
+      <link>http://localhost:1313/post/ssh-honey-pot/</link>
       <pubDate>Fri, 12 Dec 2014 15:55:44 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/ssh-honey-pot/</guid>
-      <description>یکی از تکنیکهای امنیتی که بهش هانی‌پات یا همون کندوی عسل هم میگن، اینه که یه سرویس جعلی ایجاد کنی و بعد اونو به جای سرویس اصلی بذاری. این سرویس نباید خیلی سنگین باشه، معمولا پشتش هیچی نیست و هر کاری هم که صورت بگیره آخرش اتفاق خاصی قرار نیست بیفته. اون کسی که قصد نفوذ به سیستم رو داره گیر این تله میفته و به جای اینکه واقعا برسه به سرویس اصلی با یه نسخه احمقانه سرش گرم میشه:)</description>
+      <guid>http://localhost:1313/post/ssh-honey-pot/</guid>
+      <description>&lt;p&gt;یکی از تکنیکهای امنیتی که بهش هانی‌پات یا همون کندوی عسل هم میگن، اینه که یه سرویس جعلی ایجاد کنی و بعد اونو به جای سرویس اصلی بذاری. این سرویس نباید خیلی سنگین باشه، معمولا پشتش هیچی نیست و هر کاری هم که صورت بگیره آخرش اتفاق خاصی قرار نیست بیفته. اون کسی که قصد نفوذ به سیستم رو داره گیر این تله میفته و به جای اینکه واقعا برسه به سرویس اصلی با یه نسخه احمقانه سرش گرم میشه:)&lt;br&gt;
+این سرویس جعلی باید کاملا مشابه سرویس اصلی باشه. حتی ایده‌آلش اینه که به کاربر اکسس هم بده و بندازتش تو یه محیط محدود مثل موش آزمایشگاهی :)))&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

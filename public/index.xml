@@ -1,128 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>یادداشتهای بیت نیمسوز</title>
-    <link>http://fzero.rubi.gd/</link>
-    <description>Recent content on یادداشتهای بیت نیمسوز</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>یادداشتهای پراکنده بیت‌نیمسوز</title>
+    <link>http://localhost:41109/</link>
+    <description>Recent content on یادداشتهای پراکنده بیت‌نیمسوز</description>
+    <generator>Hugo -- 0.147.9</generator>
     <language>fa-ir</language>
-    <lastBuildDate>Mon, 04 Oct 2021 19:34:16 +0200</lastBuildDate><atom:link href="http://fzero.rubi.gd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Oct 2021 19:34:16 +0200</lastBuildDate>
+    <atom:link href="http://localhost:41109/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>در ستایش تاریخ و بوردگیم و ...</title>
-      <link>http://fzero.rubi.gd/post/boardgame/pax-pamir/</link>
+      <link>http://localhost:41109/post/boardgame/pax-pamir/</link>
       <pubDate>Mon, 04 Oct 2021 19:34:16 +0200</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/boardgame/pax-pamir/</guid>
-      <description>من عاشق بوردگیمم، و عاشق تاریخ، و تلاقی بوردگیم و تاریخ برای من همیشه جذاب بوده و هست. البته نوع فانتزی شده‌اش، که سنگ بگیر چوب بده و روم را بساز، یا خیلی غرق در جزییات مثل Wargame ها، یا تاریخچه شرکتهای حمل و نقل را هم دوست دارم، اما یک بازی شبیه Freedom: the underground railroad که به تاریخچه برده‌داری میپردازد (و یک بار حتما درباره‌اش مینویسم) و یا بازی مورد بحث امروز، Pax Pamir: Second Edition برای من بیش از آن چیزی که فکرش را بکنید جذاب است.</description>
+      <guid>http://localhost:41109/post/boardgame/pax-pamir/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Pax Pamir Cover&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:41109/images/paxpamir/cover.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;من عاشق بوردگیمم، و عاشق تاریخ، و تلاقی بوردگیم و تاریخ برای من همیشه جذاب بوده و هست. البته نوع فانتزی شده‌اش، که سنگ بگیر چوب بده و روم را بساز، یا خیلی غرق در جزییات مثل &lt;a href=&#34;https://boardgamegeek.com/boardgamecategory/1019/wargame&#34;&gt;Wargame&lt;/a&gt; ها، یا تاریخچه شرکتهای حمل و نقل را هم دوست دارم، اما یک بازی شبیه &lt;a href=&#34;https://boardgamegeek.com/boardgame/119506/freedom-underground-railroad&#34;&gt;Freedom: the underground railroad&lt;/a&gt; که به تاریخچه برده‌داری میپردازد (و یک بار حتما درباره‌اش مینویسم) و یا بازی مورد بحث امروز، &lt;a href=&#34;https://boardgamegeek.com/boardgame/256960/pax-pamir-second-edition&#34;&gt;Pax Pamir: Second Edition&lt;/a&gt; برای من بیش از آن چیزی که فکرش را بکنید جذاب است.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>ناهمگون : یک</title>
-      <link>http://fzero.rubi.gd/post/nahamgoon/yek/</link>
-      <pubDate>Fri, 06 Aug 2021 14:54:30 +0200</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/nahamgoon/yek/</guid>
-      <description>من خیلی آدم ادامه دادن نوشتن نیستم. اینم شاید یه تجربه مشابه دیگه باشه. ایندفعه حتی یک درجه جلوتر بردمش و میخوام یک پادکست هم به صورت موازی راه بندازم. موش تو سوراخ نمیرفت، جارو هم به دمبش می‌بست.
-اما درباره چی حرف میزنم؟ درباره همه چی! کاملا ناهمگون و درهمه همه چی. اسم این پادکست هم میشه «ناهمگون» چون هم کلمه رو دوست دارم و هم اینکه واقعا ناهمگونه. درباره بوردگیم، برنامه نویسی، زندگی و هر چیزی که پیش بیاد.</description>
-    </item>
-    
     <item>
       <title>یک</title>
-      <link>http://fzero.rubi.gd/post/stories/first/</link>
+      <link>http://localhost:41109/post/stories/first/</link>
       <pubDate>Sun, 13 May 2018 14:36:50 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/stories/first/</guid>
-      <description>چرا هنوز از من بدت میاد؟ بعد اینهمه زندگی؟ چرا هنوز نتونستم درکت کنم؟
-سالها بعد از تمام شدن دوران احمقانه تحصیل دیدمش. وقتی که با یک رؤیای غیرقابل اجرا سراغم آمد. مدتها بحث کردیم، و در آخر هم توانست قانعم کند، هیچوقت نفهمیدم چطور. ایده ساده به نظر می‌آمد، به اشتراک گذاشتن توان پردازشی، مزرعه ای از پردازشگرها، اما نه در کنار هم. هر مشتری به طور بالقوه، میتواند یک سرویس دهنده هم باشد، نه برای کارهای همزمان، که باید سریع باشند و فاصله زمانی زیاد پردازشگر، عملاً باعث بی‌معنی شدن قضیه میشود، برای کارهایی که نیاز به توان پردازشی بالا دارد، هر چند در صفی طولانی.</description>
+      <guid>http://localhost:41109/post/stories/first/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;چرا هنوز از من بدت میاد؟ بعد اینهمه زندگی؟ چرا هنوز نتونستم درکت کنم؟&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;سالها بعد از تمام شدن دوران احمقانه تحصیل دیدمش. وقتی که با یک رؤیای غیرقابل اجرا سراغم آمد. مدتها بحث کردیم، و در آخر هم توانست قانعم کند، هیچوقت نفهمیدم چطور.
+ایده ساده به نظر می‌آمد، به اشتراک گذاشتن توان پردازشی، مزرعه ای از پردازشگرها، اما نه در کنار هم. هر مشتری به طور بالقوه، میتواند یک سرویس دهنده هم باشد، نه برای کارهای همزمان، که باید سریع باشند و فاصله زمانی زیاد پردازشگر، عملاً باعث بی‌معنی شدن قضیه میشود، برای کارهایی که نیاز به توان پردازشی بالا دارد، هر چند در صفی طولانی.
+چیزی شبیه به ماشینهای پانچ و کامپیوترهای قدیمی، اما در دنیای مدرن. پردازش سنگین خودت را به ما بسپار، و به جای سرعت بالا از تعداد زیادی پردازشگر استفاده کن.پیاده‌سازی سخت نبود، سالها تجربه به عنوان یک برنامه نویس کرنل داشتیم، و فقط چند هفته بعد سیستم آماده بود.
+تا مدتها نقدها را تحمل کردیم، نیاز مالی مطرح نبود، آخرین پروژه تا مدتها مرا بی‌نیاز کرده بود، نیازی به کار کردن نداشتم و او هم که هیچ‌وقت نفهمیدم چطور زندگی میکند.کاملاً مشخص بود که شرکتهای بزرگ ما را دوست نخواهند داشت. اولین گروهی که ما را جدی گرفتند، یک گروه دانش آموز ساده بودند که امکان پردازش توسط پردازشگرهای ما که به طعنه به ابرهای بی‌باران معروف شده بودند، را در بلندر اضافه کردند.
+یک تیم دانشجویی، یک انیمیشن حرفه‌ای درست کرد، و تمام آنرا روی سیستمهای پردازشی ما ایجاد کرد، که از سر ناچاری به دانشجوها به صورت رایگان خدمات میدادیم. ( و البته برای این گروه خاص، همیشه کمکهای ناگهانی میرسید، با یک کارت کوچک از طرف ما)
+نتیجه حیرت آور بود، یک درخواست در چند شبکه اجتماعی «امشب میخوایم بیلدش کنیم، ابرای بی بارونتونو راه بندازید، ببینیم میتونیم گریشونو دربیاریم یانه؟» و کمی خرج از طرف ما که همه جا دیده شود، کلاینتهای ما روی نزدیک هفت میلیون دستگاه کوچک و بزرگ اجرا شد و انیمیشن ۴۲ دقیقه‌ای، که فقط برای ۳ دقیقه اول سه روز روی قویترین پردازشگری که در دانشگاه در دسترس چند تا بچه دانشجو بود، دست و پا میزد، در ۷۹ دقیقه ساخته شد، با یک تست دیگر، با شبکه‌ای سریعتر و پهنای باند بیشتر، این عدد به ۳۷ و بعدها به ۱۱ رسید. ما همیشه برای تست سیستم، از همان انیمیشن استفاده میکردیم ۴۲ همیشه پاسخ جذابی است.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>تزریق! نسخه به باینری وقت کامپایل #Golang</title>
-      <link>http://fzero.rubi.gd/post/go/inject-go-version/</link>
+      <link>http://localhost:41109/post/go/inject-go-version/</link>
       <pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/go/inject-go-version/</guid>
-      <description>بدنیست همیشه یه اطلاعاتی از نسخه برنامه تو دل خودش باشه. مدتهاست که من از Make برای کامپایل برنامه استفاده میکنم، و قبلترها، قبل از اینکه کامپایل کنم برنامه رو، یک فایل میساختم (به صورت اتوماتیک) مثلا با این محتوا :
-package main // this file is autogenerated var ( // Commit hash 	hash = &amp;#34;a5df371b88bc3f875f49a3b7e19b55c88cd31487&amp;#34; short = &amp;#34;a5df371&amp;#34; // commit date 	date = &amp;#34;2016-04-30 11:21:46 +0430 +0430&amp;#34; // build date 	build = &amp;#34;2016-04-30 11:21:46 +0430 +0430&amp;#34; // commit count 	count = &amp;#34;42&amp;#34; ) بعد قبل هر کامپایل این فایل مجددا ساخته میشه و متغیرهاش آپدیت میشن.</description>
+      <guid>http://localhost:41109/post/go/inject-go-version/</guid>
+      <description>برای این قسمت تصمیم گرفتم اسم سرخ پوستی بذارم، یه چیزی تو مایه های لطفا بمیر پلن ناین لعنتی!</description>
     </item>
-    
     <item>
       <title>go web server on port 80</title>
-      <link>http://fzero.rubi.gd/post/go/go-web-server/</link>
+      <link>http://localhost:41109/post/go/go-web-server/</link>
       <pubDate>Thu, 14 Apr 2016 17:00:34 +0430</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/go/go-web-server/</guid>
-      <description>Golang یک کتابخانه عالی http داره که کلی قابلیت بهت میده. مثلا http2 و قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به سادگی آب خوردن پیاده میشه. من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا nginx و هنوزم خیلی وقتا اینکار رو میکنم. منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی.</description>
+      <guid>http://localhost:41109/post/go/go-web-server/</guid>
+      <description>&lt;p&gt;Golang یک کتابخانه عالی &lt;a href=&#34;https://golang.org/pkg/net/http/&#34;&gt;http&lt;/a&gt; داره که کلی قابلیت بهت میده. مثلا &lt;a href=&#34;http://http2.golang.org/&#34;&gt;http2&lt;/a&gt; و  قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به &lt;a href=&#34;https://golang.org/pkg/net/http/#ServeContent&#34;&gt;سادگی آب خوردن&lt;/a&gt; پیاده میشه.
+من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا &lt;a href=&#34;https://www.nginx.com/&#34;&gt;nginx&lt;/a&gt; و هنوزم خیلی وقتا اینکار رو میکنم.
+منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>GPG یک راهنمای نسبتا مفصل</title>
-      <link>http://fzero.rubi.gd/post/general/gpg-step-by-step/</link>
+      <title>یک راهنمای نسبتا مفصل GPG</title>
+      <link>http://localhost:41109/post/general/gpg-step-by-step/</link>
       <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/general/gpg-step-by-step/</guid>
-      <description>GPG یا PGP چی هست اصلا؟ این یک الگوریتم رمز گذاری شخصی حساب میشه. در حقیقت PGP اون الگوریتمه، و من از برنامه آزاد GPG برای مدیریتش استفاده میکنم. درسته که بگم این این کلید PGP منه، ولی حقیقت اینه که ناخواسته خیلی وقتا متوجه میشم که گفتم این کلید GPG منه، عمدی نیست ولی از لحاظ تکنیکی اگه اهل خورده گرفتن باشی غلط میتونه باشه.
-من سعی دارم تو این نوشته، توضیح بدم که چطور میشه یه کلید ساخت و مطمئن شد که امنه.</description>
+      <guid>http://localhost:41109/post/general/gpg-step-by-step/</guid>
+      <description>&lt;div dir=&#34;rtl&#34;&gt;
+  
+    &lt;h1 id=&#34;مقدمه&#34;&gt;مقدمه&lt;/h1&gt;
+&lt;p&gt;این مقدمه رو نزدیک به نه سال بعد از این نوشته اضافه میکنم. این نوشته من بیشترین بازدید این وبلاگ رو داره و من بارها کپی های مختلفی ازش دیدم. خودم کم و بیش از همین روش استفاده میکنم و دلم میخواست یک بار مرتبش کنم ولی خب، وقت و حسش نیست.
+این روزا دارم سعی میکنم که بیشتر بنویسم و برای همین یه دستی میخوام به سر و روی اینجا بکشم ولی بعید میدونم این نوشته به روز رسانی بشه. اینه که اگه دوست دارید کپیش کنید، بهترش کنید سادش کنید یا هرچی، اینکار رو بکنید و بازنشرش کنید. لزومی هم نیست که به این نوشته به خصوص لینک بدید، اگه دادید که چه بهتر ولی لازم هم نیست.
+خلاصه همین.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>اولین کامیتهای پروژه Go</title>
-      <link>http://fzero.rubi.gd/post/go/go-first-commit/</link>
+      <link>http://localhost:41109/post/go/go-first-commit/</link>
       <pubDate>Sat, 02 Apr 2016 23:31:08 +0430</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/go/go-first-commit/</guid>
-      <description>شوخ طبعی دولوپرها همیشه جالب بوده برام، چون اصولا ندارن و چیزهایی که براشون شوخی حساب میشه رو کسی جز خودشون براش بامزه حساب نمیشه.
-این شوخی تیم گو بوده که اولین کامیتهای گو رو اینطوری رقم زده :
-لینک اولین کامیت
-برای اونها که ممکنه شوخی رو نگرفته باشن، تاریخ و Author اون چهار تا کامیت اول رو ببینید. Brian Kernighan، کسی که اولین Hello World شناخته شده رو تو کتابش داره، تاریخ هم که خیلی قدیمیه، برمیگرده به قبل از زبان C حتی.</description>
+      <guid>http://localhost:41109/post/go/go-first-commit/</guid>
+      <description>&lt;p&gt;شوخ طبعی دولوپرها همیشه جالب بوده برام، چون اصولا ندارن و چیزهایی که براشون شوخی حساب میشه رو کسی جز خودشون براش بامزه حساب نمیشه.&lt;/p&gt;
+&lt;p&gt;این شوخی تیم گو بوده که اولین کامیتهای گو رو اینطوری رقم زده :&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;the very first commits of go project&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:41109/images/go-first/gh.png&#34;&gt;
+&lt;a href=&#34;https://github.com/golang/go/commit/7d7c6a97f815e9279d08cfaea7d5efb5e90695a8&#34;&gt;لینک اولین کامیت&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;برای اونها که ممکنه شوخی رو نگرفته باشن، تاریخ و Author اون چهار تا کامیت اول رو ببینید. &lt;a href=&#34;https://en.wikipedia.org/wiki/Brian_Kernighan&#34;&gt;Brian Kernighan&lt;/a&gt;، کسی که اولین &lt;a href=&#34;https://en.wikipedia.org/wiki/%22Hello,_World!%22_program&#34;&gt;Hello World&lt;/a&gt; شناخته شده رو تو کتابش داره، تاریخ هم که خیلی قدیمیه، برمیگرده به قبل از زبان C حتی.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>چند کاربر با یک zsh</title>
-      <link>http://fzero.rubi.gd/post/multi_user_zsh/</link>
-      <pubDate>Fri, 16 Jan 2015 14:36:50 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/multi_user_zsh/</guid>
-      <description>قاعدتا نباید پیش بیاد، ولی پیش میاد که نیاز پیدا کنیم که چند نفر بخوان از یک اکانت استفاده کنند خصوصا برای SSH کردن به یک سرور. مثلا ما یک برنامه داریم که تحت یک کاربر خاص اجرا شده و همه ما نیاز داریم که با همون کاربر وارد سرور بشیم یا حتی اگه با کاربر خودمون هم باشه در نهایت برای تغییرات، مجبوریم به همون کاربر سوییچ کنیم. این کار شاید خوب نباشه، ولی الان بحث من نیست.</description>
-    </item>
-    
-    <item>
-      <title>setup vps</title>
-      <link>http://fzero.rubi.gd/post/setup-vps/</link>
-      <pubDate>Tue, 06 Jan 2015 09:30:45 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/setup-vps/</guid>
-      <description>من با ترمینال غریبه نیستم، حقیقت اینه که خیلی هم باهاش راحتم. اینکه بخوام یه برنامه رو تو ترمینال نصب کنم و کانفیگ کنم اصولا ترجیح منه، ولی این یه جفت استثنا هم داره. این یه جفت استثنا، تنظیم dns (باز tinydns خیلی بهتره، از bind متنفرم رسما!) و یکی هم تنظیم mail server برای دریافت و ارسال ایمیل، ارسال معولا راحته، ولی دریافت رو اصلا حسشو ندارم :)) الان اگه شما حسشو دارید، و اینکار براتون راحته، سیستمتون هم به اندازه کافی قدرتمند هست که مثلا یه roundcube راه بندازید روش، همین جا دیگه ادامه ندید :) و خیلی خوشحالم که تا همین قسمتشو خوندید :))</description>
-    </item>
-    
-    <item>
-      <title>کمک به پروژه‌های آزاد - دونیشن</title>
-      <link>http://fzero.rubi.gd/post/donation/</link>
-      <pubDate>Fri, 19 Dec 2014 15:24:36 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/donation/</guid>
-      <description>یکی از چیزهایی که توی دنیای نرم‌افزارهای آزاد گاهی نقش حیاتی ایفا میکنه، دونیشن از سمت جامعه کاربری‌ه. منتها این دونیشن گاهی یه سری برداشتهای غلط رو باعث میشه. چند تاشون تو ذهن من هست، مینویسم، اگر چیزی به ذهن شما رسید خوشحال میشم که این پست رو تو گیتهاب ویرایش کنید و دوباره درخواست PR بدید.
-  دونیشن صدقه نیست. اگر از کاری رضایت ندارید، دوستش ندارید، لازمش ندارید و اصولا دلیلی برای دونیت ندارید، دونیت نکنید، ولی وقتی دونیت کردید اون رو به حساب صدقه نذارید، بذارید به حساب دستمزد اون کار.</description>
-    </item>
-    
-    <item>
-      <title>گور بدون مرده - ssh-honeypot</title>
-      <link>http://fzero.rubi.gd/post/ssh-honey-pot/</link>
-      <pubDate>Fri, 12 Dec 2014 15:55:44 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/ssh-honey-pot/</guid>
-      <description>یکی از تکنیکهای امنیتی که بهش هانی‌پات یا همون کندوی عسل هم میگن، اینه که یه سرویس جعلی ایجاد کنی و بعد اونو به جای سرویس اصلی بذاری. این سرویس نباید خیلی سنگین باشه، معمولا پشتش هیچی نیست و هر کاری هم که صورت بگیره آخرش اتفاق خاصی قرار نیست بیفته. اون کسی که قصد نفوذ به سیستم رو داره گیر این تله میفته و به جای اینکه واقعا برسه به سرویس اصلی با یه نسخه احمقانه سرش گرم میشه:)</description>
-    </item>
-    
-    <item>
-      <title>سلام دنیا، دوباره!</title>
-      <link>http://fzero.rubi.gd/post/hello-world-again/</link>
-      <pubDate>Sun, 29 Jun 2014 14:24:35 +0000</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/hello-world-again/</guid>
-      <description>سلام. دوباره برای بار هزار و یکم، و این بار با [hugo] 1 شاید براتون این سوال پیش بیاد که چه بلایی قراره سر وبلاگ قبلیم بیاد، واقعیت اینه که خودم هم همین سوال رو دارم. فعلا جوابی براش ندارم، ولی شاید یه روزی یه سری چیزاش رو برگردونم، شاید، اگه حسش بود و هزار اما و اگر دیگه.
-تم وبلاگ هم کار دوست خوبم [سیناست] 2 و هنوز داره تکمیل میشه.</description>
-    </item>
-    
   </channel>
 </rss>

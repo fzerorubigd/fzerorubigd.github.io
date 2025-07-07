@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Community on یادداشتهای بیت نیمسوز</title>
-    <link>http://fzero.rubi.gd/categories/community/</link>
-    <description>Recent content in Community on یادداشتهای بیت نیمسوز</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fa-ir</language>
-    <lastBuildDate>Fri, 19 Dec 2014 15:24:36 +0330</lastBuildDate><atom:link href="http://fzero.rubi.gd/categories/community/index.xml" rel="self" type="application/rss+xml" />
+    <title>Community on یادداشتهای پراکنده بیت‌نیمسوز</title>
+    <link>http://localhost:1313/categories/community/</link>
+    <description>Recent content in Community on یادداشتهای پراکنده بیت‌نیمسوز</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Fri, 19 Dec 2014 15:24:36 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>کمک به پروژه‌های آزاد - دونیشن</title>
-      <link>http://fzero.rubi.gd/post/donation/</link>
+      <link>http://localhost:1313/post/donation/</link>
       <pubDate>Fri, 19 Dec 2014 15:24:36 +0330</pubDate>
-      
-      <guid>http://fzero.rubi.gd/post/donation/</guid>
-      <description>یکی از چیزهایی که توی دنیای نرم‌افزارهای آزاد گاهی نقش حیاتی ایفا میکنه، دونیشن از سمت جامعه کاربری‌ه. منتها این دونیشن گاهی یه سری برداشتهای غلط رو باعث میشه. چند تاشون تو ذهن من هست، مینویسم، اگر چیزی به ذهن شما رسید خوشحال میشم که این پست رو تو گیتهاب ویرایش کنید و دوباره درخواست PR بدید.
-  دونیشن صدقه نیست. اگر از کاری رضایت ندارید، دوستش ندارید، لازمش ندارید و اصولا دلیلی برای دونیت ندارید، دونیت نکنید، ولی وقتی دونیت کردید اون رو به حساب صدقه نذارید، بذارید به حساب دستمزد اون کار.</description>
+      <guid>http://localhost:1313/post/donation/</guid>
+      <description>&lt;p&gt;یکی از چیزهایی که توی دنیای نرم‌افزارهای آزاد گاهی نقش حیاتی ایفا میکنه، دونیشن از سمت جامعه کاربری‌ه. منتها این دونیشن گاهی یه سری برداشتهای غلط رو باعث میشه. چند تاشون تو ذهن من هست، مینویسم، اگر چیزی به ذهن شما رسید خوشحال میشم که این پست رو تو گیتهاب ویرایش کنید و دوباره درخواست PR بدید.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;دونیشن صدقه نیست. اگر از کاری رضایت ندارید، دوستش ندارید، لازمش ندارید و اصولا دلیلی برای دونیت ندارید، دونیت نکنید، ولی وقتی دونیت کردید اون رو به حساب صدقه نذارید، بذارید به حساب دستمزد اون کار.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
