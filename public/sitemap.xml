@@ -2,60 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:41109/categories/boardgame/</loc>
+    <loc>https://fzero.rubi.gd/categories/boardgame/</loc>
     <lastmod>2021-10-04T19:34:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:41109/categories/</loc>
+    <loc>https://fzero.rubi.gd/categories/</loc>
     <lastmod>2021-10-04T19:34:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:41109/categories/history/</loc>
+    <loc>https://fzero.rubi.gd/categories/history/</loc>
     <lastmod>2021-10-04T19:34:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:41109/post/</loc>
+    <loc>https://fzero.rubi.gd/post/</loc>
     <lastmod>2021-10-04T19:34:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:41109/post/boardgame/pax-pamir/</loc>
+    <loc>https://fzero.rubi.gd/post/boardgame/pax-pamir/</loc>
     <lastmod>2021-10-04T19:34:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:41109/</loc>
+    <loc>https://fzero.rubi.gd/</loc>
     <lastmod>2021-10-04T19:34:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:41109/categories/story/</loc>
+    <loc>https://fzero.rubi.gd/categories/story/</loc>
     <lastmod>2018-05-13T14:36:50+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/post/stories/first/</loc>
+    <loc>https://fzero.rubi.gd/post/stories/first/</loc>
     <lastmod>2018-05-13T14:36:50+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/categories/go/</loc>
+    <loc>https://fzero.rubi.gd/categories/go/</loc>
     <lastmod>2016-05-01T08:01:37+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/categories/trick/</loc>
+    <loc>https://fzero.rubi.gd/categories/trick/</loc>
     <lastmod>2016-05-01T08:01:37+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/post/go/inject-go-version/</loc>
+    <loc>https://fzero.rubi.gd/post/go/inject-go-version/</loc>
     <lastmod>2016-05-01T08:01:37+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/categories/general/</loc>
+    <loc>https://fzero.rubi.gd/categories/general/</loc>
     <lastmod>2016-04-14T17:00:34+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/post/go/go-web-server/</loc>
+    <loc>https://fzero.rubi.gd/post/go/go-web-server/</loc>
     <lastmod>2016-04-14T17:00:34+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/categories/git/</loc>
+    <loc>https://fzero.rubi.gd/categories/git/</loc>
     <lastmod>2016-04-08T14:35:06+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/categories/gpg/</loc>
+    <loc>https://fzero.rubi.gd/categories/gpg/</loc>
     <lastmod>2016-04-08T14:35:06+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/categories/pgp/</loc>
+    <loc>https://fzero.rubi.gd/categories/pgp/</loc>
     <lastmod>2016-04-08T14:35:06+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/post/general/gpg-step-by-step/</loc>
+    <loc>https://fzero.rubi.gd/post/general/gpg-step-by-step/</loc>
     <lastmod>2016-04-08T14:35:06+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/post/go/go-first-commit/</loc>
+    <loc>https://fzero.rubi.gd/post/go/go-first-commit/</loc>
     <lastmod>2016-04-02T23:31:08+04:30</lastmod>
   </url><url>
-    <loc>http://localhost:41109/tags/</loc>
+    <loc>https://fzero.rubi.gd/tags/</loc>
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on یادداشتهای پراکنده بیت‌نیمسوز</title>
-    <link>http://localhost:41109/categories/git/</link>
+    <link>https://fzero.rubi.gd/categories/git/</link>
     <description>Recent content in Git on یادداشتهای پراکنده بیت‌نیمسوز</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>fa-ir</language>
     <lastBuildDate>Fri, 08 Apr 2016 14:35:06 +0430</lastBuildDate>
-    <atom:link href="http://localhost:41109/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fzero.rubi.gd/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>یک راهنمای نسبتا مفصل GPG</title>
-      <link>http://localhost:41109/post/general/gpg-step-by-step/</link>
+      <link>https://fzero.rubi.gd/post/general/gpg-step-by-step/</link>
       <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
-      <guid>http://localhost:41109/post/general/gpg-step-by-step/</guid>
+      <guid>https://fzero.rubi.gd/post/general/gpg-step-by-step/</guid>
       <description>&lt;div dir=&#34;rtl&#34;&gt;
   
     &lt;h1 id=&#34;مقدمه&#34;&gt;مقدمه&lt;/h1&gt;
