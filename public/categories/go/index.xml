@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Go on یادداشتهای پراکنده بیت‌نیمسوز</title>
-    <link>https://fzero.rubi.gd/categories/go/</link>
-    <description>Recent content in Go on یادداشتهای پراکنده بیت‌نیمسوز</description>
-    <generator>Hugo -- 0.147.9</generator>
-    <language>fa-ir</language>
-    <lastBuildDate>Sun, 01 May 2016 08:01:37 +0430</lastBuildDate>
-    <atom:link href="https://fzero.rubi.gd/categories/go/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>تزریق! نسخه به باینری وقت کامپایل #Golang</title>
-      <link>https://fzero.rubi.gd/post/go/inject-go-version/</link>
-      <pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
-      <guid>https://fzero.rubi.gd/post/go/inject-go-version/</guid>
-      <description>برای این قسمت تصمیم گرفتم اسم سرخ پوستی بذارم، یه چیزی تو مایه های لطفا بمیر پلن ناین لعنتی!</description>
-    </item>
-    <item>
-      <title>go web server on port 80</title>
-      <link>https://fzero.rubi.gd/post/go/go-web-server/</link>
-      <pubDate>Thu, 14 Apr 2016 17:00:34 +0430</pubDate>
-      <guid>https://fzero.rubi.gd/post/go/go-web-server/</guid>
-      <description>&lt;p&gt;Golang یک کتابخانه عالی &lt;a href=&#34;https://golang.org/pkg/net/http/&#34;&gt;http&lt;/a&gt; داره که کلی قابلیت بهت میده. مثلا &lt;a href=&#34;http://http2.golang.org/&#34;&gt;http2&lt;/a&gt; و  قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به &lt;a href=&#34;https://golang.org/pkg/net/http/#ServeContent&#34;&gt;سادگی آب خوردن&lt;/a&gt; پیاده میشه.
-من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا &lt;a href=&#34;https://www.nginx.com/&#34;&gt;nginx&lt;/a&gt; و هنوزم خیلی وقتا اینکار رو میکنم.
-منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>اولین کامیتهای پروژه Go</title>
-      <link>https://fzero.rubi.gd/post/go/go-first-commit/</link>
-      <pubDate>Sat, 02 Apr 2016 23:31:08 +0430</pubDate>
-      <guid>https://fzero.rubi.gd/post/go/go-first-commit/</guid>
-      <description>&lt;p&gt;شوخ طبعی دولوپرها همیشه جالب بوده برام، چون اصولا ندارن و چیزهایی که براشون شوخی حساب میشه رو کسی جز خودشون براش بامزه حساب نمیشه.&lt;/p&gt;
-&lt;p&gt;این شوخی تیم گو بوده که اولین کامیتهای گو رو اینطوری رقم زده :&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;the very first commits of go project&#34; loading=&#34;lazy&#34; src=&#34;https://fzero.rubi.gd/images/go-first/gh.png&#34;&gt;
-&lt;a href=&#34;https://github.com/golang/go/commit/7d7c6a97f815e9279d08cfaea7d5efb5e90695a8&#34;&gt;لینک اولین کامیت&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;برای اونها که ممکنه شوخی رو نگرفته باشن، تاریخ و Author اون چهار تا کامیت اول رو ببینید. &lt;a href=&#34;https://en.wikipedia.org/wiki/Brian_Kernighan&#34;&gt;Brian Kernighan&lt;/a&gt;، کسی که اولین &lt;a href=&#34;https://en.wikipedia.org/wiki/%22Hello,_World!%22_program&#34;&gt;Hello World&lt;/a&gt; شناخته شده رو تو کتابش داره، تاریخ هم که خیلی قدیمیه، برمیگرده به قبل از زبان C حتی.&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Go on یادداشتهای پراکنده بیت‌نیمسوز</title>
+		<link>https://fzero.rubi.gd/categories/go/</link>
+		<description>Recent content in Go on یادداشتهای پراکنده بیت‌نیمسوز</description>
+		<generator>Hugo</generator>
+		<language>fa-ir</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 01 May 2016 08:01:37 +0430</lastBuildDate>
+		
+			<atom:link href="https://fzero.rubi.gd/categories/go/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>تزریق! نسخه به باینری وقت کامپایل #Golang</title>
+				<link>https://fzero.rubi.gd/post/go/inject-go-version/</link>
+				<pubDate>Sun, 01 May 2016 08:01:37 +0430</pubDate>
+				<guid>https://fzero.rubi.gd/post/go/inject-go-version/</guid>
+				<description>&lt;p&gt;بدنیست همیشه یه اطلاعاتی از نسخه برنامه تو دل خودش باشه. مدتهاست که من از Make برای کامپایل برنامه استفاده میکنم، و قبلترها، قبل از اینکه کامپایل کنم برنامه رو، یک فایل میساختم (به صورت اتوماتیک) مثلا با این محتوا :&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// this file is autogenerated&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; (&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;// Commit hash &lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#a6e22e&#34;&gt;hash&lt;/span&gt;  = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;a5df371b88bc3f875f49a3b7e19b55c88cd31487&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#a6e22e&#34;&gt;short&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;a5df371&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;// commit date&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#a6e22e&#34;&gt;date&lt;/span&gt;  = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2016-04-30 11:21:46 +0430 +0430&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;// build date &lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#a6e22e&#34;&gt;build&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2016-04-30 11:21:46 +0430 +0430&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;// commit count&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#a6e22e&#34;&gt;count&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;42&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;بعد قبل هر کامپایل این فایل مجددا ساخته میشه و متغیرهاش آپدیت میشن. خوبه، ولی نه به اندازه کافی. این فایل باید ignore بشه تو ورژن کنترل، کسی از کامند مناسب استفاده نکنه ساخته نمیشه و الی آخر. این شد که افتادم دنبال راه حل بهتر.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>go web server on port 80</title>
+				<link>https://fzero.rubi.gd/post/go/go-web-server/</link>
+				<pubDate>Thu, 14 Apr 2016 17:00:34 +0430</pubDate>
+				<guid>https://fzero.rubi.gd/post/go/go-web-server/</guid>
+				<description>&lt;p&gt;Golang یک کتابخانه عالی &lt;a href=&#34;https://golang.org/pkg/net/http/&#34;&gt;http&lt;/a&gt; داره که کلی قابلیت بهت میده. مثلا &lt;a href=&#34;http://http2.golang.org/&#34;&gt;http2&lt;/a&gt; و  قابلیت ساپورت رنج روی فایل برای دانلود که تقریبا به &lt;a href=&#34;https://golang.org/pkg/net/http/#ServeContent&#34;&gt;سادگی آب خوردن&lt;/a&gt; پیاده میشه.&#xA;من معمولا یه وب سرور میذاشتم سر راهش. یعنی پروکسیش میکردم. مثلا &lt;a href=&#34;https://www.nginx.com/&#34;&gt;nginx&lt;/a&gt; و هنوزم خیلی وقتا اینکار رو میکنم.&#xA;منتها یه وقتایی هست که کلا نمیخوای درگیر وب سرور خارجی بشی. دلیلش هر چی هست :)‌ و میخوای از سرور خود Golang استفاده کنی. این کاملا با اون چیزی که توی پایتون و روبی و PHP به عنوان وب سرور به خوردمون دادن متفاوته. این یک سرور آماده برای کاره نه یک وب سرور برای محیط دولوپمنت.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>اولین کامیتهای پروژه Go</title>
+				<link>https://fzero.rubi.gd/post/go/go-first-commit/</link>
+				<pubDate>Sat, 02 Apr 2016 23:31:08 +0430</pubDate>
+				<guid>https://fzero.rubi.gd/post/go/go-first-commit/</guid>
+				<description>&lt;p&gt;شوخ طبعی دولوپرها همیشه جالب بوده برام، چون اصولا ندارن و چیزهایی که براشون شوخی حساب میشه رو کسی جز خودشون براش بامزه حساب نمیشه.&lt;/p&gt;&#xA;&lt;p&gt;این شوخی تیم گو بوده که اولین کامیتهای گو رو اینطوری رقم زده :&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://fzero.rubi.gd/images/go-first/gh.png&#34; alt=&#34;the very first commits of go project&#34;&gt;&#xA;&lt;a href=&#34;https://github.com/golang/go/commit/7d7c6a97f815e9279d08cfaea7d5efb5e90695a8&#34;&gt;لینک اولین کامیت&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;برای اونها که ممکنه شوخی رو نگرفته باشن، تاریخ و Author اون چهار تا کامیت اول رو ببینید. &lt;a href=&#34;https://en.wikipedia.org/wiki/Brian_Kernighan&#34;&gt;Brian Kernighan&lt;/a&gt;، کسی که اولین &lt;a href=&#34;https://en.wikipedia.org/wiki/%22Hello,_World!%22_program&#34;&gt;Hello World&lt;/a&gt; شناخته شده رو تو کتابش داره، تاریخ هم که خیلی قدیمیه، برمیگرده به قبل از زبان C حتی.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

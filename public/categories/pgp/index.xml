@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Pgp on یادداشتهای پراکنده بیت‌نیمسوز</title>
-    <link>https://fzero.rubi.gd/categories/pgp/</link>
-    <description>Recent content in Pgp on یادداشتهای پراکنده بیت‌نیمسوز</description>
-    <generator>Hugo -- 0.147.9</generator>
-    <language>fa-ir</language>
-    <lastBuildDate>Fri, 08 Apr 2016 14:35:06 +0430</lastBuildDate>
-    <atom:link href="https://fzero.rubi.gd/categories/pgp/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>یک راهنمای نسبتا مفصل GPG</title>
-      <link>https://fzero.rubi.gd/post/general/gpg-step-by-step/</link>
-      <pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
-      <guid>https://fzero.rubi.gd/post/general/gpg-step-by-step/</guid>
-      <description>&lt;div dir=&#34;rtl&#34;&gt;
-  
-    &lt;h1 id=&#34;مقدمه&#34;&gt;مقدمه&lt;/h1&gt;
-&lt;p&gt;این مقدمه رو نزدیک به نه سال بعد از این نوشته اضافه میکنم. این نوشته من بیشترین بازدید این وبلاگ رو داره و من بارها کپی های مختلفی ازش دیدم. خودم کم و بیش از همین روش استفاده میکنم و دلم میخواست یک بار مرتبش کنم ولی خب، وقت و حسش نیست.
-این روزا دارم سعی میکنم که بیشتر بنویسم و برای همین یه دستی میخوام به سر و روی اینجا بکشم ولی بعید میدونم این نوشته به روز رسانی بشه. اینه که اگه دوست دارید کپیش کنید، بهترش کنید سادش کنید یا هرچی، اینکار رو بکنید و بازنشرش کنید. لزومی هم نیست که به این نوشته به خصوص لینک بدید، اگه دادید که چه بهتر ولی لازم هم نیست.
-خلاصه همین.&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Pgp on یادداشتهای پراکنده بیت‌نیمسوز</title>
+		<link>https://fzero.rubi.gd/categories/pgp/</link>
+		<description>Recent content in Pgp on یادداشتهای پراکنده بیت‌نیمسوز</description>
+		<generator>Hugo</generator>
+		<language>fa-ir</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 08 Apr 2016 14:35:06 +0430</lastBuildDate>
+		
+			<atom:link href="https://fzero.rubi.gd/categories/pgp/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>یک راهنمای نسبتا مفصل GPG</title>
+				<link>https://fzero.rubi.gd/post/general/gpg-step-by-step/</link>
+				<pubDate>Fri, 08 Apr 2016 14:35:06 +0430</pubDate>
+				<guid>https://fzero.rubi.gd/post/general/gpg-step-by-step/</guid>
+				<description>&lt;div dir=&#34;rtl&#34; style=&#34;text-align: right&#34;&gt;&#xA;&lt;h1 id=&#34;مقدمه&#34;&gt;مقدمه&lt;/h1&gt;&#xA;&lt;p&gt;این مقدمه رو نزدیک به نه سال بعد از این نوشته اضافه میکنم. این نوشته من بیشترین بازدید این وبلاگ رو داره و من بارها کپی های مختلفی ازش دیدم. خودم کم و بیش از همین روش استفاده میکنم و دلم میخواست یک بار مرتبش کنم ولی خب، وقت و حسش نیست.&#xA;این روزا دارم سعی میکنم که بیشتر بنویسم و برای همین یه دستی میخوام به سر و روی اینجا بکشم ولی بعید میدونم این نوشته به روز رسانی بشه. اینه که اگه دوست دارید کپیش کنید، بهترش کنید سادش کنید یا هرچی، اینکار رو بکنید و بازنشرش کنید. لزومی هم نیست که به این نوشته به خصوص لینک بدید، اگه دادید که چه بهتر ولی لازم هم نیست.&#xA;خلاصه همین.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
