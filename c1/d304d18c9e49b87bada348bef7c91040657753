@@ -1,0 +1,14 @@
+content/post/boardgame/trick-taking.md
+  h_59b93e6533d811 1-83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "c1d304d18c9e49b87bada348bef7c91040657753",
+  "prompts": {},
+  "humans": {
+    "h_59b93e6533d811": {
+      "author": "Forud Ghafouri <forud.ghafouri@deliveryhero.com>"
+    }
+  }
+}
