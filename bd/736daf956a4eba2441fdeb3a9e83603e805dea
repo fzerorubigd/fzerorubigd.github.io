@@ -1,0 +1,40 @@
+public/categories/boardgame/index.xml
+  h_0fb76bab4a0e68 2-30
+public/categories/general/index.xml
+  h_0fb76bab4a0e68 2-23
+public/categories/git/index.xml
+  h_0fb76bab4a0e68 2-23
+public/categories/go/index.xml
+  h_0fb76bab4a0e68 2-37
+public/categories/gpg/index.xml
+  h_0fb76bab4a0e68 2-23
+public/categories/history/index.xml
+  h_0fb76bab4a0e68 2-23
+public/categories/index.xml
+  h_0fb76bab4a0e68 2-79
+public/categories/pgp/index.xml
+  h_0fb76bab4a0e68 2-23
+public/categories/story/index.xml
+  h_0fb76bab4a0e68 2-23
+public/categories/trick/index.xml
+  h_0fb76bab4a0e68 2-23
+public/index.xml
+  h_0fb76bab4a0e68 2-65
+public/post/index.xml
+  h_0fb76bab4a0e68 2-65
+public/sitemap.xml
+  h_0fb76bab4a0e68 6,9,12,14-15,18-23
+public/tags/index.xml
+  h_0fb76bab4a0e68 2-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "bd736daf956a4eba2441fdeb3a9e83603e805dea",
+  "prompts": {},
+  "humans": {
+    "h_0fb76bab4a0e68": {
+      "author": "Forud Ghafouri <fzerorubigd@gmail.com>"
+    }
+  }
+}
